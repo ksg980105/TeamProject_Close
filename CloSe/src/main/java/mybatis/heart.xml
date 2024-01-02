@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "heart.HeartBean">
+	<insert id="heart">
+		insert into heart values
+		(heart_seq.nextval, #{member_id}, #{style_number})
+	</insert>
+	
+	<delete id="unheart">
+		delete heart
+		where style_number = #{style_number} and member_id = #{member_id}
+	</delete>
+	
+	<select id="searchHeart" resultType="HeartBean">
+		select * from heart
+		where style_number = #{style_number} and member_id = #{infoMemberId, jdbcType=VARCHAR}
+	</select>
+	
+	<select id="countHeart" resultType="int">
+		select count(*) from heart
+		where style_number = #{style_number}
+	</select>
+</mapper>

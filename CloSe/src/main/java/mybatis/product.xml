@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "product.ProductBean">
+	<select id="getAllProduct" resultType="ProductBean">
+		select * from product order by product_number
+	</select>
+	<insert id="insertProduct">
+		insert into product values
+		(product_seq.nextval,#{product_name},#{image},#{price},#{content},#{temperature},#{s_stock},#{m_stock},#{l_stock},#{xl_stock},#{smallcategory_name})
+	</insert>
+	<select id="getOneProduct" resultType="ProductBean">
+		select * from product where product_number = #{product_number}
+	</select>
+	
+	<select id="getCountByBigcategory" resultType="int">
+		SELECT count(*) FROM product p 
+		INNER JOIN category c 
+		ON p.smallcategory_name = c.smallcategory_name
+		WHERE c.bigcategory_name = #{bigcategory_name} 
+	</select> 
+	<select id="getCountBySmallcategory" resultType="int">
+		SELECT count(*) FROM product 
+		WHERE smallcategory_name = #{smallcategory_name} 
+	</select> 
+	<select id="getCountByKeyword" resultType="int">
+		SELECT count(*) FROM product
+		where product_name like #{keyword}
+	</select>
+	<select id="getCountByBrand" resultType="int">
+		SELECT count(*) FROM product 
+		WHERE product_name like #{brand} 
+	</select> 
+	<select id="getProductAllCount" resultType="int">
+		select count(*) from product
+	</select>
+	
+	<select id="getIFCount" resultType="int">
+		SELECT count(*) FROM product p 
+		INNER JOIN category c 
+		ON p.smallcategory_name = c.smallcategory_name
+		where 1=1
+		<if test="whatColumn != null">
+        	<if test="!keyword.equals('%null%')">
+				and p.product_name like #{keyword}
+			</if>
+		</if>   
+		<if test="bigcategory_name != null">
+			<if test="!bigcategory_name.equals('null')">
+				and c.bigcategory_name = #{bigcategory_name}
+			</if>
+		</if>
+		<if test="smallcategory_name != null">
+			<if test="!smallcategory_name.equals('null')">
+				and p.smallcategory_name = #{smallcategory_name}
+			</if>
+		</if>
+		<if test="brand != null">
+			<if test="!brand.equals('%null%')">
+				and p.product_name like #{brand}
+			</if>
+		</if>
+	</select>
+	
+	
+	<select id="getIFProduct" resultType="ProductBean">
+		SELECT p.product_number,p.product_name,p.image,p.price,p.content,p.temperature,
+		p.s_stock,p.m_stock,p.l_stock,p.xl_stock,p.smallcategory_name,
+		COUNT(od.product_number) AS product_count, AVG(r.rating) AS average_rating
+		FROM product p
+		INNER JOIN category c ON p.smallcategory_name = c.smallcategory_name
+		LEFT JOIN orderdetail od ON p.product_number = od.product_number
+		LEFT JOIN review r ON od.orderdetail_number = r.orderdetail_number
+		where 1=1
+        <if test="whatColumn != null">
+        	<if test="!keyword.equals('%null%')">
+				and product_name like #{keyword}
+			</if>
+		</if>   
+		<if test="bigcategory_name != null">
+			<if test="!bigcategory_name.equals('null')">
+				and c.bigcategory_name = #{bigcategory_name}
+			</if>
+		</if>
+		<if test="smallcategory_name != null">
+			<if test="!smallcategory_name.equals('null')">
+				and p.smallcategory_name = #{smallcategory_name}
+			</if>
+		</if>
+		<if test="brand != null">
+			<if test="!brand.equals('%null%')">
+				and p.product_name like #{brand}
+			</if>
+		</if>
+		GROUP BY p.product_number,p.product_name,p.image,p.price,p.content,p.temperature,
+		p.s_stock,p.m_stock,p.l_stock,p.xl_stock,p.smallcategory_name
+		<if test="sort != null">
+			<if test="!sort.equals('null')">
+				<if test="sort == 'new'">
+					order by p.product_number desc
+				</if>
+				<if test="sort == 'low'">
+					order by p.price, product_number desc
+				</if>
+				<if test="sort == 'high'">
+					order by p.price desc, product_number desc
+				</if>
+				<if test="sort == 'sale'">
+					order by product_count DESC, product_number desc
+				</if>
+				<if test="sort == 'rating'">
+					order by average_rating desc nulls last, product_number desc
+				</if>
+			</if>
+		</if>
+	</select>
+	
+	
+	
+	
+	
+	<update id="updateStock">
+		update product 
+		set s_stock=s_stock-#{s_stock},m_stock=m_stock-#{m_stock},l_stock=l_stock-#{l_stock},xl_stock=xl_stock-#{xl_stock}
+		where product_number=#{product_number}
+	</update>
+	
+	<update id="deleteProduct">
+		update product 
+		set s_stock=0,m_stock=0,l_stock=0,xl_stock=0
+		where product_number=#{product_number}
+	</update>
+	
+	<update id="updateProduct">
+		update product 
+		set product_name=#{product_name}, image=#{image}, price=#{price}, content=#{content}, temperature=#{temperature},
+		s_stock=#{s_stock}, m_stock=#{m_stock}, l_stock=#{l_stock}, xl_stock=#{xl_stock}, smallcategory_name=#{smallcategory_name}
+		where product_number=#{product_number}
+	</update>
+	
+	<select id="findProductNames" resultType="String">
+        SELECT product_name
+        FROM product
+        WHERE product_name LIKE '%' || #{searchWord} || '%'
+        ORDER BY product_name
+        FETCH FIRST 5 ROWS ONLY
+    </select>
+    
+    <select id="findProductNames2" resultType="ProductBean">
+        SELECT *
+        FROM product
+        WHERE product_name LIKE '%' || #{searchWord2} || '%'
+        ORDER BY product_name
+        FETCH FIRST 5 ROWS ONLY
+    </select>
+    
+    <select id="getPopularProduct" resultType="ProductBean">
+    	SELECT p.product_number,p.product_name,p.image,p.price,p.content,p.temperature,
+		p.s_stock,p.m_stock,p.l_stock,p.xl_stock,p.smallcategory_name,
+		COUNT(od.product_number) AS product_count,AVG(r.rating) AS average_rating
+		FROM product p
+		LEFT JOIN orderdetail od ON p.product_number = od.product_number
+		LEFT JOIN review r ON od.orderdetail_number = r.orderdetail_number
+		GROUP BY p.product_number,p.product_name,p.image,p.price,p.content,p.temperature,
+		p.s_stock,p.m_stock,p.l_stock,p.xl_stock,p.smallcategory_name
+		ORDER BY product_count DESC, average_rating DESC
+    </select>
+    
+    <select id="getPop" resultType="ProductBean">
+    	SELECT keyword, count
+		FROM pop
+		ORDER BY count DESC
+		FETCH FIRST 10 ROWS ONLY
+    </select>
+    
+    <!-- 키워드 조회 -->
+    <select id="getKeywordCount" resultType="java.lang.Integer">
+        SELECT count FROM pop WHERE keyword = #{keyword}
+    </select>
+
+    <!-- 키워드 추가 -->
+    <insert id="insertKeyword">
+        INSERT INTO pop VALUES (#{keyword}, 0)
+    </insert>
+
+    <!-- 키워드 업데이트 -->
+    <update id="updateKeywordCount">
+        UPDATE pop SET count = count + 1 WHERE keyword = #{keyword}
+    </update>
+</mapper>

@@ -1,0 +1,70 @@
+insert into category values
+('긴소매 티셔츠','상의');
+insert into category values
+('반소매 티셔츠','상의');
+insert into category values
+('맨투맨','상의');
+insert into category values
+('니트','상의');
+insert into category values
+('셔츠','상의');
+insert into category values
+('후드 티셔츠','상의');
+insert into category values
+('스포츠','상의');
+insert into category values
+('민소매 티셔츠','상의');
+
+insert into category values
+('카고','하의');
+insert into category values
+('슬랙스','하의');
+insert into category values
+('데님','하의');
+insert into category values
+('코튼','하의');
+insert into category values
+('숏','하의');
+insert into category values
+('레깅스','하의');
+insert into category values
+('트레이닝','하의');
+insert into category values
+('미니스커트','하의');
+insert into category values
+('롱스커트','하의');
+insert into category values
+('미디스커트','하의');
+
+insert into category values
+('무스탕','아우터');
+insert into category values
+('베스트','아우터');
+insert into category values
+('재킷','아우터');
+insert into category values
+('가디건','아우터');
+insert into category values
+('코트','아우터');
+insert into category values
+('숏패딩','아우터');
+insert into category values
+('롱패딩','아우터');
+
+insert into category values
+('스니커즈','신발');
+insert into category values
+('구두','신발');
+insert into category values
+('부츠','신발');
+insert into category values
+('슬리퍼','신발');
+insert into category values
+('샌들','신발');
+insert into category values
+('기타','신발');
+
+insert into category values
+('미니원피스','원피스');
+insert into category values
+('롱원피스','원피스');

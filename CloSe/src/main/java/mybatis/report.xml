@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "report.ReportBean">
+
+	<select id="getTotalCount" resultType="int">
+		select count(*) from report
+		<if test="whatColumn == 'nickname'">
+			where nickname like #{keyword}		
+		</if>
+		<if test="whatColumn == 'reported_user_id'">
+			where reported_user_id like #{keyword}		
+		</if>
+	</select>
+
+	<select id="getAllReport" resultType="ReportBean">
+		select * from report
+		<if test="whatColumn == 'nickname'">
+			where nickname like #{keyword}		
+		</if>
+		<if test="whatColumn == 'reported_user_id'">
+			where reported_user_id like #{keyword}		
+		</if>
+		order by report_number desc
+	</select>
+	
+	<select id="getDetailReport" resultType="ReportBean">
+		select * from report
+		where report_number = #{report_number}
+	</select>
+	
+	<insert id="insertReport">
+		insert into report 
+		values(report_seq.nextval, #{report_category}, #{content}, #{image}, #{reporter_id}, #{reported_user_id}, #{style_number}, #{write_date})
+	</insert>
+
+</mapper>

@@ -1,0 +1,676 @@
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/캐시미어 블렌드 오버사이즈 싱글 코트 [탠 브라운]','1. 아우터(코트).jpg',138000,'2023030218201400000089525.jpg',-50,16,25,31,24,'코트');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/폰테 모크 넥 긴팔 티셔츠 [화이트]','1. 상의(긴팔 티셔츠).jpg',26000,'2023072009570900000073849.jpg',20,21,20,4,12,'긴소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/와이드 스웨트 팬츠 [멜란지 라이트 그레이] ','1. 하의(스웨트 팬츠).jpg',25000,'2022112417052800000005079.jpg',12,11,18,21,12,'트레이닝');
+
+insert into product values
+(product_seq.nextval,'반스/어센틱 - 화이트 / VN000EE3WHT1','1. 신발(단화 캔버스).jpg',51000,'2022031616571100000085331.jpg',21,21,14,12,12,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'디미토/GORE-TEX (VTX X EIDER) 2L JACKET WHITE','2. 아우터(패딩).jpg',469000,'2023101912472500000058876.jpg',-50,5,12,10,9,'숏패딩');
+
+insert into product values
+(product_seq.nextval,'더센토르/CENTAUR BECCA JIPUP PULLOVER_MINT','2. 상의(니트).jpg',180000,'2022100419252000000037689.jpg',5,12,14,11,8,'니트');
+
+insert into product values
+(product_seq.nextval,'비에스래빗/데님 빕팬츠 그레이','2. 하의(데님).jpg',280000,'PT067-010.jpg',9,1,5,14,9,'데님');
+
+insert into product values
+(product_seq.nextval,'코닥/포키 WHITE','2. 신발(부츠).jpg',156000,'KD_K3363LCR92_IVR_product.jpg',2,11,15,14,9,'부츠');
+
+insert into product values
+(product_seq.nextval,'컨셉원/핸드메이드 울/캐시미어 발마칸 코트 073916','8. 상의(코트).jpg',154000,'10073916.jpg',-50,5,11,22,9,'코트');
+
+insert into product values
+(product_seq.nextval,'우마뭉/Extra fine merino wool turtle neck pullover_Hibiscus','8. 상의(니트).jpg',138000,'2023101209315900000013595.jpg',7,3,11,15,9,'니트');
+
+insert into product values
+(product_seq.nextval,'블랭크룸/메이드 코듀로이 팬츠_ECRU','8. 하의(코튼).jpg',156000,'MADE_CORDUROY_PANTS_ECRU2.jpg',6,3,11,15,9,'코튼');
+
+insert into product values
+(product_seq.nextval,'블런드스톤/첼시부츠_브라운','8. 신발(부츠).jpg',289000,'1_header_blundstone_mu.jpg',3,3,7,8,9,'부츠');
+
+insert into product values
+(product_seq.nextval,'스파오/벨티드 발마칸 코트_SPJWD4VW01','4. 아우터(코트).jpg',109300,'2023083116310200000059076.jpg',-50,3,7,8,9,'코트');
+
+insert into product values
+(product_seq.nextval,'레터프롬문/코니 더스트 파인 울 가디건 ( 레드 )','4. 상의(가디건).jpg',64000,'ECBD94EB8B8820EB8D94EC8AA4ED8AB820ED8C8CEC9DB820EC9AB820EAB080EB9494EAB1B4202820EBA088EB939C2029201.jpg',13,8,11,5,9,'가디건');
+
+insert into product values
+(product_seq.nextval,'엠엠아이씨/샌드 데님 에코 프린트 페이크 포켓 데님_라이트 블루','4. 하의(데님).jpg',136000,'2A3-MM-UB-CP006_L.BLUE_2.jpg',9,8,11,5,9,'데님');
+
+insert into product values
+(product_seq.nextval,'질바이질스튜어트/블랙 플랫폼 몽크','4. 신발(블로퍼).jpg',79000,'2023080714555500000030903.jpg',9,8,15,15,9,'구두');
+
+insert into product values
+(product_seq.nextval,'어널러코드/항공 패딩 점퍼 (카키)','9. 아우터(패딩).jpg',115000,'2023101622431900000086736.jpg',-50,5,13,11,9,'숏패딩');
+
+insert into product values
+(product_seq.nextval,'엑서사이즈/ATHLETIC CLOUD HOODIE_BLACK','9. 상의(후드티).jpg',45000,'2023101817381300000095553.jpg',11,3,21,17,5,'후드 티셔츠');
+
+insert into product values
+(product_seq.nextval,'토마스모어/스콧울 밴딩 팬츠-차콜','9. 하의(울바지).jpg',117000,'2023101813515900000070911.jpg',3,3,21,17,5,'트레이닝');
+
+insert into product values
+(product_seq.nextval,'아디다스/슈퍼스타 80s Deux - 블랙:화이트','9. 신발(스니커즈).jpg',169000,'2023101710581700000097261.jpg',6,3,14,13,7,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/울 블렌드 미니멀 블루종 재킷 [토프]','7. 아우터(블루종).jpg',129900,'2023092614404300000087944.jpg',7,13,14,8,7,'재킷');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/메리노 울 블렌드 하이게이지 터틀 넥 니트 [머쉬룸]','7. 상의(니트).jpg',46900,'2022102711232000000018576.jpg',9,7,12,9,7,'니트');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/스트레이트 데님 팬츠 [그레이]','7. 하의(데님).jpg',40600,'2023090812292100000000166.jpg',10,5,13,8,7,'데님');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/플레인 첼시 부츠 [블랙]','7. 신발(부츠).jpg',103500,'2022012113530000000079347.jpg',12,5,21,9,7,'부츠');
+
+insert into product values
+(product_seq.nextval,'엽페/BOUCLE COLLAR JACKET_IVORY','3. 아우터(울 자켓).jpg',144000,'2023103114532200000060188.jpg',5,15,8,32,5,'재킷');
+
+insert into product values
+(product_seq.nextval,'제너럴아이디어/링클 프리 클래식 스트라이프 셔츠 [BLUE]/WBC3L03504','3. 상의(셔츠).jpg',42000,'03_WBC3L03504BL_c.jpg',18,15,18,12,5,'셔츠');
+
+insert into product values
+(product_seq.nextval,'에델나인/Levy 레비 롱부츠 4cm','3. 신발(부츠).jpg',81600,'edel9_shoes_2023fw_19H_04.jpg',3,15,18,12,5,'부츠');
+
+insert into product values
+(product_seq.nextval,'브라운야드/더플 코트, 올리브 그레이','16. 아우터(코트).jpg',346000,'2023101918481000000037000.jpg',10,8,6,9,5,'코트');
+
+insert into product values
+(product_seq.nextval,'블랭크룸/YOKE SWEATER_SPRUCE PUTTY','16. 상의(니트).jpg',247400,'YOKE_SWEATER_OCEAN_SPRUCE_PUTTY1.jpg',5,8,6,9,5,'니트');
+
+insert into product values
+(product_seq.nextval,'유니폼브릿지/23fw selvedge denim pants raw indigo','16. 하의(데님).jpg',89000,'2023082116254300000021539.jpg',9,8,21,19,5,'데님');
+
+insert into product values
+(product_seq.nextval,'하루타/남성용 소가죽 태슬로퍼 HS-907_D.BROWN','16. 신발(로퍼).jpg',124000,'TOP_M.jpg',13,15,10,17,5,'구두');
+
+insert into product values
+(product_seq.nextval,'무센트/DENIM JACKET','56. 아우터(트러커 재킷).jpg',147000,'25eee6ab3e0184667dbf545b0c15ae24.jpg',10,15,10,17,5,'재킷');
+
+insert into product values
+(product_seq.nextval,'몬스터리퍼블릭/어센틱 인디고블루 맨투맨 멜란지그레이','56. 상의(맨투맨).jpg',49000,'03_mtm_movement_authentic_indigoblue_whitegray_950_02.jpg',17,15,8,31,5,'맨투맨');
+
+insert into product values
+(product_seq.nextval,'팀버랜드/여성 팀버랜드 6인치 프리미엄 부츠','56. 신발(부츠).jpg',268000,'2022083111385500000082231.jpg',3,11,8,31,5,'부츠');
+
+insert into product values
+(product_seq.nextval,'셀리테일즈/OVERFIT SINGLE JACKET_DARK GREEN','84. 아우터(블레이저 재킷).jpg',142800,'3_1.jpg',13,21,8,12,9,'재킷');
+
+insert into product values
+(product_seq.nextval,'폴로 랄프 로렌/케이블 니트 코튼 크루넥 스웨터 - 블랙','84. 상의(니트).jpg',219600,'2023040711165100000001600.jpg',5,17,8,12,9,'니트');
+
+insert into product values
+(product_seq.nextval,'후아유/체크 패턴 스커트','84. 하의(미니스커트).jpg',22900,'2023082220410900000075985.jpg',28,32,14,8,12,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'타크트로이메/Cartoon-25 - 버클 하프 부츠','84. 신발(부츠).jpg',77900,'2022111013572700000022128.jpg',9,14,14,8,12,'부츠');
+
+insert into product values
+(product_seq.nextval,'포터리/Short Sleeve Comfort Shirt (Linen Flower)','101. 상의(셔츠).jpg',159000,'2023042111372600000018301.jpg',24,13,21,8,12,'셔츠');
+
+insert into product values
+(product_seq.nextval,'포터리/Officer Chino Pants (Dark Navy)','101. 하의(코튼).jpg',209000,'2023052517122500000027195.jpg',21,13,15,9,12,'코튼');
+
+insert into product values
+(product_seq.nextval,'라티젠/L3 LOGO PATTERN SCARF(BLACK)','102. 상의(스카프).jpg',51000,'L3LOGOPATTERNSCARFBLACK.jpg',29,8,21,12,12,'민소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'노원엘스/Distressed Straight Wide-Leg Denim Jeans','102. 하의(데님).jpg',79800,'2023060811062900000025201.jpg',24,12,15,13,12,'데님');
+
+insert into product values
+(product_seq.nextval,'에이티티/Color Platform Sandals','102. 신발(플랫).jpg',87200,'2023051017191800000039390.jpg',29,8,13,19,11,'샌들');
+
+insert into product values
+(product_seq.nextval,'매드마르스/비건 레더 패치 슬리브리스_블랙','103. 상의(민소매).jpg',45000,'2023062214381900000020985.jpg',27,8,13,15,11,'민소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'로맨틱무브/백우드 플리플랍 R23S004 (블랙)','103. 신발(슬리퍼).jpg',47600,'0101.jpg',29,8,13,4,14,'슬리퍼');
+
+insert into product values
+(product_seq.nextval,'폴로 랄프 로렌/케이블 니트 숏 슬리브 셔츠 - 블랙','104. 상의(니트).jpg',274000,'2023060916144900000078949.jpg',17,11,8,12,14,'니트');
+
+insert into product values
+(product_seq.nextval,'폴로 랄프 로렌/치노 트윌 쇼트 - 화이트','104. 하의(숏).jpg',102200,'2022070617262300000064459.jpg',28,11,8,12,14,'숏');
+
+insert into product values
+(product_seq.nextval,'스테인가르텐/EYELET LACE CABANA SHIRTS','105. 상의(셔츠).jpg',192000,'2023042416314300000075598.jpg',25,14,21,12,14,'셔츠');
+
+insert into product values
+(product_seq.nextval,'스테인가르텐/HALF DENIM PANTS','105. 하의(숏).jpg',181300,'2023032710593300000065642.jpg',27,25,21,12,19,'숏');
+
+insert into product values
+(product_seq.nextval,'마크모크/남여공용 글레디에이터 피셔맨 샌들','105. 신발(샌들).jpg',63400,'남화_Tera0.jpg',24,18,21,25,19,'샌들');
+
+insert into product values
+(product_seq.nextval,'오디너리홀리데이/멀티 컬러 풀오버 [PINK]','151. 상의(니트).jpg',30300,'W7C23RDSW101PK_003.jpg',19,18,9,16,19,'니트');
+
+insert into product values
+(product_seq.nextval,'분더캄머/세미 부츠컷 데님 팬츠_라이트 블루','151. 하의(데님 팬츠).jpg',121500,'2023030716463200000070336.jpg',14,18,11,13,19,'데님');
+
+insert into product values
+(product_seq.nextval,'블랑토/메리제인 플랫 B23S61-WHITE','151. 신발(플랫 슈즈).jpg',218700,'2023032715113400000005010.jpg',13,42,24,8,17,'기타');
+
+insert into product values
+(product_seq.nextval,'라운드트리코/리브드 크롭 볼레로 - 라이트 옐로우','152 아우터(카디건).jpg',33000,'2023030714161600000077073.jpg',21,35,24,25,17,'가디건');
+
+insert into product values
+(product_seq.nextval,'하이스쿨디스코/SLIT RIBBON LONG OPS_IVORY','152. 원피스(미디 원피스).jpg',49000,'2023030912290100000009547.jpg',19,24,24,25,17,'롱원피스');
+
+insert into product values
+(product_seq.nextval,'더니트컴퍼니/크로셰 니트 베스트 [네이비]','154. 아우터(베스트).jpg',53400,'TMKV012310_1.jpg',14,18,21,25,17,'니트');
+
+insert into product values
+(product_seq.nextval,'더니트컴퍼니/수피마 쿨맥스 스탠다드핏 티셔츠 2PACK','154. 상의(반소매 티셔츠).jpg',25600,'2023041114311500000087381.jpg',21,9,21,25,17,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'포트너스/Moon Washed Jeans (Black)','154. 바지(데님 팬츠).jpg',90900,'2023022016052400000048179.jpg',15,15,21,17,17,'데님');
+
+insert into product values
+(product_seq.nextval,'슈페너/SPACPK 로퍼 구두 브라운','154. 신발(로퍼).jpg',48200,'08.jpg',12,18,21,17,17,'구두');
+
+insert into product values
+(product_seq.nextval,'포셔드/엠블럼 패치 부클 가디건_네이비','155. 아우터(카디건).jpg',128700,'6cd8561f9de502c3e48a82183fee64a7.png',14,18,21,17,17,'가디건');
+
+insert into product values
+(product_seq.nextval,'버뮤다그래스/언발란스 플리츠 스커트_BEIGE','155. 하의(미니스커트).jpg',157600,'56a217c0-b839-45d4-abdd-174b56d0ab58.jpg',13,21,21,14,8,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'피아이지씨/공용 스탠다드 스파이크 리스 스니커즈','155. 신발(골프화).jpg',129900,'SUADSH10131_page1.jpg',13,21,21,14,8,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'이벳필드/카라 스트라이프 가디건 민트','157. 아우터(카디건).jpg',45000,'model_01.jpg',11,17,21,14,8,'가디건');
+
+insert into product values
+(product_seq.nextval,'노클/Belted Burnuda Pants Ivory','157. 하의(숏 팬츠).jpg',45000,'2022052610565300000048404.jpg',21,17,21,14,8,'숏');
+
+insert into product values
+(product_seq.nextval,'로맨틱무브/셀렉션 스퀘어토 첼시 부츠 R21M025 (화이트)','157. 신발(부츠).jpg',116800,'2020082511095900000057426.jpg',21,17,21,14,8,'부츠');
+
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'URAGO (유라고)/Teddy shearling wool mustang','00. 아우터(무스탕,퍼).jpg',349000,'00. 아우터(무스탕,퍼)-내용.jpg',-50,10,5,3,7,'무스탕');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'OEF (오이에프)/Knit Mini Top (Light Gray)','00. 상의(니트).jpg',119000,'00. 상의(니트)-내용.jpg',4,3,3,1,15,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,' LOOKAST (룩캐스트)/로랑 울 메탈릭 스커트 2colors ','00. 하의(미니스커트).jpg',168000,'00. 하의(미니스커트)-내용.jpg',14,15,10,7,50,'미니스커트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'EDEL9 (에델나인)/Levy 레비 롱부츠 4cm','00. 신발(부츠).jpg',148000,'00. 신발(부츠)-내용.jpg',14,20,30,4,3,'부츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'GUBIN (구빈)/더플 플리스 후드 코트-카키','12. 아우터(코트).jpg',179000,'12. 아우터(코트)c.jpg',-50,2,10,14,11,'코트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'GUBIN (구빈)/체크 후드 셔츠','12. 상의(셔츠).jpg',129000,'12. 상의(셔츠)c.jpg',16,3,4,0,10,'셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'BRONSON (브론슨)/1942 US Army Chino Trousers Khaki','12. 하의(코튼).jpg',120000,'12. 하의(코튼)c.jpg',13,23,66,47,10,'코튼');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'23.65 (23.65)/폴카1 패딩 방한 슬리퍼 유광 블랙','12. 신발(슬리퍼).jpg',69000,'12. 신발(슬리퍼)c.jpg',-5,1,26,23,7,'슬리퍼');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'OUTSTANDING (아웃스탠딩)/POLAR GOOSE DOWN PARKA_GREEN','13. 아우터(패딩).jpg',298000,'13. 아우터(패딩)c.jpg',-50,23,11,7,9,'숏패딩');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'THOMASMORE (토마스모어)/TD5-SW01 램스울 라운드 니트-만다린오렌지','13. 상의(니트).jpg',59500,'13. 상의(니트)c.jpg',4,4,6,20,11,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'THOMASMORE (토마스모어)/TD3-PT05 덴스 오피서 팬츠-베이지','13. 하의(코튼).jpg',97500,'13. 하의(코튼)c.jpg',15,6,9,16,15,'코튼');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'GENUINEGRIP (제뉴인그립)/1010 기능성 운동화','13. 신발(운동화).jpg',65000,'13. 신발(운동화)c.jpg',12,64,23,36,52,'기타');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'CODEGRAPHY (코드그라피)/WOOL 더플 롱 코트_그레이','14. 아우터(코트).jpg',199000,'14. 아우터(코트)c.jpg',-50,16,78,90,41,'코트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'BRONSON (브론슨)/US Army High Neck Wool Sweater Olive','14. 상의(니트).jpg',123000,'14. 상의(니트)c.jpg',2,100,64,23,98,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'CODEGRAPHY (코드그라피)/카펜터 데님 팬츠_블루','14. 하의(데님).jpg',69000,'14. 하의(데님)c.jpg',17,15,75,25,70,'데님');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'BLUNDSTONE (블런드스톤)/CLASSIC #562첼시부츠_브라운머스타드','14. 신발(부츠).jpg',289000,'14. 신발(부츠)c.jpg',0,12,5,8,9,'부츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'JULIAPEPE (줄리아페페)/Classy Wool Peacoat (Black)','55. 아우터(겨울 더블코트).jpg',350000,'55. 아우터(겨울 더블코트)c.jpg',-50,16,26,30,25,'코트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'WNDERKAMMER (분더캄머)/Classic V-neck Knit_Red (클래식 브이넥 니트_레드)','55. 상의(니트).jpg',198000,'55. 상의(니트)c.jpg',2,7,8,4,2,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'GROVE (그로브)/GRVR SPORTS_프릴 밴딩스커트_BLACK','55. 하의(미니스커트).jpg',89000,'55. 하의(미니스커트)c.jpg',17,73,16,23,8,'미니스커트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'OIOI (오아이오아이)/시그니처 클래식 플랫폼 부츠_카멜','55. 신발(부츠).jpg',119000,'55. 신발(부츠)c.jpg',0,21,21,62,23,'부츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'DUNST FOR WOMEN (던스트 포 우먼)/UNISEX CLASSIC BOYFRIEND SHIRT WHITE_UDSH3C103WT','96. 상의(셔츠).jpg',99000,'97. 상의(셔츠)c.jpg',19,2,3,5,1,'셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'MUSINSA STANDARD (무신사 스탠다드)/우먼즈 웨이스트밴들리스 와이드 슬랙스 [라이트 베이지]','96. 하의(슬랙스).jpg',41900,'96. 하의(슬랙스)c.jpg',15,6,12,15,7,'슬랙스');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'ROH SEOUL (로서울)/Ronald penny loafer Black','96. 신발(로퍼).jpg',198000,'97. 신발(로퍼)c.jpg',15,25,23,11,6,'구두');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'POLO RALPH LAUREN (폴로 랄프 로렌)/더블니트 자카드 블레이저 - 블랙','97. 아우터(블레이저 재킷).jpg',459000,'97. 아우터(블레이저 재킷)c.jpg',10,15,12,2,8,'재킷');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'NUAKLE (누아클레)/미니멀 핀턱 셔츠 화이트_유니섹스','97. 상의(셔츠).jpg',83000,'97. 상의(셔츠)c.jpg',17,11,10,15,9,'셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'MOTT (모트)/플리티드 롱 스커트-Gray','97. 하의(롱스커트).jpg',137000,'97. 하의(롱스커트)c.jpg',10,20,26,24,11,'롱스커트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'MOODNIGHT (무드나잇)/LOUIS penny platform loafer - 2type 3.5cm 소프트 플랫폼 페니로퍼','97. 신발(로퍼).jpg',188000,'97. 신발(로퍼)c.jpg',15,2,7,9,6,'구두');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'LEMARD (르마드)/라운드 베이직 헤비 니트 - 그레이','98. 상의(니트).jpg',78000,'98. 상의(니트)c.jpg',10,50,50,55,57,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'MELANGE MASTER (멜란지 마스터)/오버 핏 옥스포드 셔츠 [화이트]','98. 상의(셔츠).jpg',45900,'98. 상의(셔츠)c.jpg',17,77,79,40,32,'셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'LEIRE (르아르)/핀턱 와이드 슬랙스 [차콜]','98. 하의(슬랙스).jpg',72000,'98. 하의(슬랙스)c.jpg',14,25,11,7,4,'슬랙스');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'ROMANTIC MOVE (로맨틱무브)/라운드 첼시 부츠 R22M073 (블랙)','98. 신발(부츠).jpg',224000,'98. 신발(부츠)c.jpg',12,11,17,5,3,'부츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'COVERNAT (커버낫)/비건 레더 트러커 자켓 라이트 그레이','99. 아우터(트러커 재킷).jpg',219000,'99. 아우터(트러커 재킷)c.jpg',11,99,99,99,99,'재킷');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'AREUBAN (아르반)/워셔블 쿨링 린넨 라운드 니트_매트 블랙','99. 상의(니트).jpg',69000,'99. 상의(니트)c.jpg',9,36,39,42,30,'니트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'MODIFIED (모디파이드)/화이트 카펜터 팬츠','99. 하의(코튼 팬츠).jpg',62000,'99. 하의(코튼 팬츠)c.jpg',15,21,62,35,46,'코튼');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'RADICAR (레디카르)/QUITE 뮬','99. 신발(블로퍼).jpg',159000,'99. 신발(블로퍼)c.jpg',18,21,56,34,26,'구두');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'DOFFJASON (도프제이슨)/빈티지 워싱레더 쉴드 자켓','100. 아우터(라이더스 재킷).jpg',163000,'100. 아우터(라이더스 재킷)c.jpg',10,67,36,36,36,'재킷');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'LEIRE (르아르)/시그니처 엠블럼 코튼 티셔츠 [화이트]','100. 상의(반소매 티셔츠).jpg',38000,'100. 상의(반소매 티셔츠)c.jpg',22,12,25,74,33,'반소매 티셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'BEGIN202 (비긴202)/Nycoma Two Tuck Pants [Charcoal_Brown]','100. 하의(기타 바지).jpg',128000,'100. 하의(기타 바지)c.jpg',14,12,16,17,14,'슬랙스');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'ROMANTIC MOVE (로맨틱무브)/라운드 첼시 부츠 R22M073 (블랙)','100. 신발(부츠).jpg',224000,'100. 신발(부츠)c.jpg',10,123,118,109,99,'부츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'TRILLION (트릴리온)/프리미엄 실켓 레이어드 슬리브 반팔티셔츠 (DULL BLUE)','112. 상의(반소매).jpg',45000,'112. 상의(반소매)c.jpg',24,11,5,2,4,'반소매 티셔츠');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'TRILLION (트릴리온)/테이퍼드 투 턱 벨트 팬츠 (BLACK)','112. 바지(코튼).jpg',65000,'112. 바지(코튼)c.jpg',21,11,15,12,20,'코튼');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'CURETTY (큐리티)/C CABLE DETAIL KNIT VEST_BLACK','113. 아우터(베스트).jpg',64000,'113. 아우터(베스트)c.jpg',23,5,5,5,4,'베스트');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'AVANDRESS (어반드레스)/BUCKLE WIDE DENIM PANTS BLACK','113. 바지(데님).jpg',69000,'113. 바지(데님)c.jpg',20,25,21,19,19,'데님');
+Insert into product (PRODUCT_NUMBER,PRODUCT_NAME,IMAGE,PRICE,CONTENT,TEMPERATURE,S_STOCK,M_STOCK,L_STOCK,XL_STOCK,SMALLCATEGORY_NAME) values (product_seq.nextval,'CURETTY (큐리티)/C SQUARE TOE WOOD PLATFORM MULES_BLACK','113. 신발(슬리퍼).jpg',179000,'113. 신발(슬리퍼)c.jpg',50,34,41,27,42,'슬리퍼');
+
+
+insert into product values
+(product_seq.nextval,'더콜디스트모먼트/TCM full bloom T','114. 상의(반소매).jpg',24600,'2020072018232800000069703.jpg',29,17,21,14,8,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/와이드 데님 팬츠 [크림]','114. 바지(데님).jpg',40600,'2023090810033600000002923.jpg',22,17,21,14,8,'데님');
+
+insert into product values
+(product_seq.nextval,'컨버스/척 70 빈티지 캔버스 미드나잇클로버 168513C','114. 신발(스니커즈).jpg',69800,'168513C_168514C.jpg',25,17,21,14,8,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/우먼즈 베이식 슬리브리스 탑 [다크 네이비]','115. 상의(민소매).jpg',13300,'2022062915472600000053088.jpg',23,17,21,14,8,'민소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/우먼즈 프론트 슬릿 데님 롱 스커트 [그레이]','115. 하의(스커트).jpg',42100,'2023060814105300000005479.jpg',27,17,11,24,8,'롱스커트');
+
+insert into product values
+(product_seq.nextval,'하프크라이즈 레이아웃/린넨 7부 포켓티셔츠 TA-110_KH','120. 상의(반소매).jpg',31600,'TA-110_top_info.jpg',31,9,11,24,8,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'제멋/스콘 와이드 벌룬팬츠 베이지 YHLP2350','120. 하의(코튼).jpg',31900,'YHLP2350_explain_beige_oy.jpg',25,9,11,24,8,'코튼');
+
+insert into product values
+(product_seq.nextval,'닥터마틴/블레어 블랙 브란도 샌들 24191001','120. 신발(샌들).jpg',190000,'2020040217061300000039144.jpg',31,9,19,14,8,'샌들');
+
+insert into product values
+(product_seq.nextval,'노이아고/NOI889 언발 로고 티셔츠 (화이트)','153. 상의(반소매 티셔츠).jpg',29400,'2023040710403400000050459.jpg',26,9,17,14,8,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'노이아고/NOI903 언발 맥시 원피스 (블루)','153. 원피스(맥시 원피스).jpg',77900,'2023040716372700000050034.jpg',20,9,17,14,8,'롱원피스');
+
+insert into product values
+(product_seq.nextval,'컨버스/척70 시즈널 컬러 서밋 세이지 A02769C','153. 신발(스니커즈).jpg',52200,'A02769C.jpg',20,9,17,14,8,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'노클/One Pocket Shirts Green','161. 상의(셔츠).jpg',52700,'2023022014091600000082941.jpg',14,9,17,14,8,'셔츠');
+
+insert into product values
+(product_seq.nextval,'247시리즈/컴포트 셋업 2플리츠 와이드 팬츠 MELANGE GRAY','161. 하의(슬랙스).jpg',72600,'TMPAX23411GYM.jpg',15,9,17,24,8,'슬랙스');
+
+insert into product values
+(product_seq.nextval,'슈페너/SPACBTB 로퍼 구두 베이지','161. 신발(로퍼).jpg',44900,'03.jpg',15,9,17,24,8,'구두');
+
+insert into product values
+(product_seq.nextval,'룩캐스트/지나 퍼프 슬리브 니트 탑 / ZINNA PUFF SLEEVE KNIT TOP','164. 상의(니트).jpg',60600,'23SPKN007_DE.jpg',20,9,17,24,8,'니트');
+
+insert into product values
+(product_seq.nextval,'시야쥬/Loosefit silky oxford shirt_Deep blue','164. 상의(셔츠).jpg',71300,'SITP5088_main.jpg',24,9,17,24,8,'셔츠');
+
+insert into product values
+(product_seq.nextval,'에펠클래식/미나 로퍼 글로시 블랙','164. 신발(로퍼).jpg',154300,'2023030617024700000015420.jpg',14,9,17,24,8,'구두');
+
+insert into product values
+(product_seq.nextval,'에트몽/Slip Line Button Detail Dress, Sky Blue','166. 원피스(맥시 원피스).jpg',129000,'2023022220250600000014110.jpg',28,9,18,24,8,'롱원피스');
+
+insert into product values
+(product_seq.nextval,'질바이질스튜어트/스퀘어 슬링백','166. 신발(힐).jpg',65600,'2023012511270300000029421.jpg',21,9,18,24,8,'구두');
+
+insert into product values
+(product_seq.nextval,'드파운드/컬러 케이블 믹스 가디건 [네이비]','167. 아우터(카디건).jpg',198000,'color cable mix cardigan_navy_01.jpg',20,9,18,24,8,'가디건');
+
+insert into product values
+(product_seq.nextval,'드파운드/데님 미니 스커트 [에크루]','167. 하의(미니스커트).jpg',105600,'denim mini skirt_ecru_01.jpg',25,9,18,24,8,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'솔트앤초콜릿/라운드 토 스티치 메리제인 플랫','167. 신발(로퍼).jpg',58300,'01.jpg',21,9,18,24,8,'구두');
+
+insert into product values
+(product_seq.nextval,'HARDCORE HAPPINESS (하드코어 해피니스)/WAVE OVERSIZED CLASSIC COLLAR COAT_KHAKI BEIGE','165. 아우터(코트).jpg',220000,'2023030714452300000094376.jpg',14,100,100,100,100,'코트');
+
+insert into product values
+(product_seq.nextval,'ARCHAIC (아르카익)/patchwork t-shirt_black','165. 상의(반소매 티셔츠).jpg',59000,'2023021521353100000073003.jpg',20,100,100,100,100,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'PLAC WOMEN (플랙 우먼)/로그 K05 라이트 블루','165. 하의(데님 팬츠).jpg',139000,'PJTH5LGK055_000.jpg',14,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'TRETEN (트레텐)/Pointed toe Slingback Pumps (Black)','165. 신발(힐).jpg',228000,'2023030118141600000084612.jpg',14,100,100,100,100,'구두');
+
+insert into product values
+(product_seq.nextval,'SPAO (스파오)/퍼 카라 크롭 푸퍼_SPJPD4VG02','5. 아우터(패딩).jpg',89900,'37bd8348-edca-467a-9917-185122c696ae.jpg',-50,100,100,100,100,'숏패딩');
+
+insert into product values
+(product_seq.nextval,'ZEROPLANET (제로플래닛)/조이 벨로아 셔츠 [WHITE]','5. 상의(셔츠).jpg',80000,'Z23FTP14WH_01.jpg',24,100,100,100,100,'셔츠');
+
+insert into product values
+(product_seq.nextval,'BITTERCELLS (비터셀즈)/빈티지 워싱 데님 팬츠-블랙','5. 하의(데님).jpg',88000,'2022090211112100000011336.jpg',14,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'CUSTOMADE WOMAN (커스텀에이드 우먼)/4.5cm 라운드토 청키 더비 슈즈 마나(CW0054EBK)','5. 신발(구두).jpg',65000,'2023100617033400000040303.jpg',20,100,100,100,100,'구두');
+
+
+
+insert into product values
+(product_seq.nextval,'THE BALLON (더발론)/HALF SLEEVE PIQUE KNIT','107. 상의(니트).jpg',139000,'2023052521312600000011310.jpg',27,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'THE BALLON (더발론)/mens shiny wide denim jean','107. 하의(데님).jpg',158000,'2023052521485900000033839.jpg',27,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'LIEFNY (리프니)/더비커즈 플라스틱 스니커즈 블랙(SNPLH01)','107. 신발(스니커즈).jpg',99000,'0b83a01bc428e3607d2ae55d1c1c0603.jpg',20,100,100,100,100,'구두');
+
+insert into product values
+(product_seq.nextval,'ETMON (에트몽)/Hoodie Curved Crop Coat, Mocha Grey','6. 아우터(코트).jpg',298000,'WC110SWWB6_01_top.jpg',-50,100,100,100,100,'코트');
+
+insert into product values
+(product_seq.nextval,'LABELARCHIVE (라벨아카이브)/W 쉐기 스웨터 아이보리','6. 상의(니트).jpg',197000,'1138864e34308.jpg',10,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'GLOWNY (글로니)/TIA DOUBLE LAYERED RUFFLE SKIRT (BROWN)','6. 하의(스커트).jpg',192000,'2023091514504300000023677.jpg',28,100,100,100,100,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'ASICS (아식스)/젤-1130 - 버치:샌드 1203A327-201','6. 신발(스니커즈).jpg',149000,'WC110SWWB6_01_top.jpg',18,100,100,100,100,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'FILA GOLF (휠라 골프)/에임라인 남성 니트(FG2STE1200MNAY)','156. 상의(니트).jpg',109000,'FG2STE1200M_NAY.jpg',20,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'KEDS (케즈)/블루 클라우드(1XM01941E320)','156. 신발(스니커즈).jpg',109000,'22SS_INTRO.jpg',20,100,100,100,100,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'IL CORSO (일꼬르소)/미니멀 크롭 구스 다운 점퍼 샤인블랙 IEJU3F003BB','10. 아우터(패딩).jpg',279000,'IEJU3F003BB_01.jpg',-50,100,100,100,100,'숏패딩');
+
+insert into product values
+(product_seq.nextval,'SUPERSUB (슈퍼서브)/THUNDER 브러쉬드 니트 - 핑크','10. 상의(니트).jpg',74000,'2023081815005200000097799.jpg',14,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'UNIFORM BRIDGE (유니폼브릿지)/wool cargo pocket pants brown','10. 하의(코튼).jpg',169000,'2023090416145800000069173.jpg',16,100,100,100,100,'코튼');
+
+insert into product values
+(product_seq.nextval,'BSQT by Classy (비에스큐티바이클래시)/C02 벨루가 소가죽 더비 화이트','10. 신발(구두).jpg',154000,'10(신발구두).jpg',14,100,100,100,100,'구두');
+
+
+insert into product values
+(product_seq.nextval,'DEBBY UPPER (데비어퍼)/FLORE SCOTCH CROP KNIT BOLERO_PEACH','160. 상의(니트).jpg',109000,'2023030911050100000092317.jpg',20,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'DEBBY UPPER (데비어퍼)/FLORE SCARF KNIT VEST_PEACH','160. 상의(니트)2.jpg',98000,'2023030910575200000060683.jpg',20,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'DEBBY UPPER (데비어퍼)/SIA SHINING STRING PANTS_APRICOT ORANGE','160. 하의(바지).jpg',168000,'2023032014010100000017330.jpg',20,100,100,100,100,'카고');
+
+insert into product values
+(product_seq.nextval,'SALOMON SPORTSTYLE (살로몬 스포츠스타일)/X-미션 4 스웨이드 - 바닐라:오키드 블룸:블레이징 오렌지  L47138400','160. 신발(스니커즈).jpg',178000,'fb3d317cddee4f49829ef581b10355b2 (2).jpg',20,100,100,100,100,'스니커즈');
+
+
+insert into product values
+(product_seq.nextval,'ASIF CALIE (에즈이프 캘리)/CALIE LACE MINI DRESS WHITE','108. 원피스.jpg',99000,'CA23ADR003IV.jpg',50,100,100,100,100,'미니원피스');
+
+insert into product values
+(product_seq.nextval,'TWVP (트윗비피)/MOON BIKER ANKLE BOOTS 문 바이커 앵클부츠 23S01BE','108. 신발(부츠).jpg',335000,'2023031716274400000021008.jpg',10,100,100,100,100,'부츠');
+
+
+
+insert into product values
+(product_seq.nextval,'KOLEAT (콜릿)/여름 쿨링 마몽 크롭 무지 반팔티 [화이트]','109. 상의(반소매).jpg',335000,'2023041012483500000091409.jpg',26,100,100,100,100,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'ROCKCAKE (락케이크)/사이드 포켓 미니스커트 - 카키','109. 하의(스커트).jpg',59000,'2023050410251100000024436.jpg',40,100,100,100,100,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'CONVERSE (컨버스)/척테일러 올스타 컨스트럭트 빈티지 화이트 A02832C','109. 신발(캔버스 단화).jpg',95000,'A02832C.jpg',24,100,100,100,100,'스니커즈');
+
+
+
+insert into product values
+(product_seq.nextval,'OIOI (오아이오아이)/LOGO PATTERN TOP [GREY]','110. 상의(민소매).jpg',69000,'2022040711582500000036099.jpg',36,100,100,100,100,'민소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'CPGN STUDIO (꼼파뇨)/카펜터 카고 팬츠 워시드블루','110. 하의(데님).jpg',96000,'2022033114184900000096770.jpg',22,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'TIMBERLAND (팀버랜드)/여성 팀버랜드 6인치 프리미엄 부츠 10361-713','110. 신발(부츠).jpg',268000,'2022083111385300000018702.jpg',15,100,100,100,100,'부츠');
+
+
+insert into product values
+(product_seq.nextval,'BRONSON (브론슨)/US Army Air Forces Type B-9 Flight Down Parka Olive','11. 아우터(패딩).jpg',460000,'2023110810102300000010601.jpg',-50,100,100,100,100,'롱패딩');
+
+insert into product values
+(product_seq.nextval,'TRIP LE SENS (트립르센스)/울 믹스 라운드 크롭 니트_믹스드브라운','11. 상의(니트).jpg',87000,'2023102017471800000071576.jpg',10,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'TRILLION (트릴리온)/바이오스톤 워싱 와이드 데님 팬츠 (DEEP GREEN)','11. 하의(데님).jpg',54000,'2023090815335000000082251.jpg',16,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'SONSHINBAL (손신발)/9073-08 Black Suede Walker 35','11. 신발(부츠).jpg',440000,'2023101613264400000090410.jpg',8,100,100,100,100,'부츠');
+
+
+insert into product values
+(product_seq.nextval,'ANOBLIR (아노블리어)/린넨 라이크 싱글 블레이저 [오트밀]','159. 아우터(슈트).jpg',162000,'2023031311343900000094333.jpg',19.5,100,100,100,100,'재킷');
+
+insert into product values
+(product_seq.nextval,'POLO RALPH LAUREN (폴로 랄프 로렌)/코튼 저지 크루넥 슬립 티셔츠 - 화이트','159. 상의(홈웨어).jpg',59000,'detail_1883712_1_500.jpg',23,100,100,100,100,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'ANOBLIR (아노블리어)/린넨 라이크 원턱 하프 밴딩 슬랙스 [오트밀]','159. 하의(슬랙스).jpg',81000,'2023031309520900000081400.jpg',19.5,100,100,100,100,'슬랙스');
+
+
+
+insert into product values
+(product_seq.nextval,'MAHAGRID (마하그리드)/COLLEGE LOGO HALF KNIT NAVY(MG2DMMK601A)','158. 상의(니트).jpg',79000,'mg2dmmk601anv03.jpg',19.5,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'LMOOD (엘무드)/케이트 보이프렌드 데님 라이트 블루','158. 하의(데님 팬츠).jpg',118000,'158하의.jpg',23,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'WETHEROAD (위더로드)/WTRD2203 스미스 스퀘어토 미니멀 로퍼 블랙 [245~290MM]','158. 신발(로퍼).jpg',89000,'WTRD2203_01_01.jpg',15,100,100,100,100,'구두');
+
+
+
+insert into product values
+(product_seq.nextval,'MUSINSA STANDARD (무신사 스탠다드)/씬 스트라이프 크루 넥 반팔 티셔츠 [더스티 카키, 아이보리]','111. 상의(반소매).jpg',15900,'2021040209553500000057751.jpg',26,100,100,100,100,'반소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'MUSINSA STANDARD (무신사 스탠다드)/와이드 히든 밴딩 슬랙스 [라이트 카키]','111. 상의(반소매).jpg',41900,'2022060717304300000095702.jpg',16,100,100,100,100,'슬랙스');
+
+insert into product values
+(product_seq.nextval,'WETHEROAD (위더로드)/WTRD4104 오스틴 스트랩샌들 매트블랙','111. 신발(샌들).jpg',69000,'WTRD4104-01.jpg',26,100,100,100,100,'샌들');
+
+
+
+insert into product values
+(product_seq.nextval,'CALVIN KLEIN JEANS (캘빈클라인 진)/여 블랙 숏 렝스 스탠드 카라 푸퍼 다운 재킷 J221163 BEH','54. 아우터(숏패딩).jpg',299000,'brand_introduction.jpg',-50,100,100,100,100,'숏패딩');
+
+insert into product values
+(product_seq.nextval,'MOIFAIRE (모이페어)/POCKET STRING SHIRT WHITE','54. 상의(셔츠).jpg',84000,'2023092619022000000028356.jpg',23,100,100,100,100,'셔츠');
+
+insert into product values
+(product_seq.nextval,'ZEROPLANET (제로플래닛)/클라라 플리츠 미니 스커트 [GREY]','54. 하의(미니스커트).jpg',8300,'Z23FSK07GY_01.jpg',28,100,100,100,100,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'MAC MOC (마크모크)/Tiamo 2Color 소가죽 양털퍼 방한 어그부츠 5Cm','54. 신발(부츠).jpg',110000,'Tiamo_인트로.jpg',0,100,100,100,100,'부츠');
+
+
+
+insert into product values
+(product_seq.nextval,'ESPIONAGE (에스피오나지)/Standard Varsity Jacket Brown','3603760_16970870991508_500.jpg',309000,'2023101215170300000002162.jpg',9,100,100,100,100,'재킷');
+
+insert into product values
+(product_seq.nextval,'SUARE (수아레)/[2PACK] 스테디 니트 패키지','3495320_16931883749296_500.jpg',118000,'t7LilfW66u.jpeg',12,100,100,100,100,'니트');
+
+insert into product values
+(product_seq.nextval,'TRILLION (트릴리온)/빈티지 워싱 코듀로이 와이드 카고 팬츠 (BLACK)','3539289_16945843926108_500.jpg',57000,'2023091315085400000046465.jpg',8,100,100,100,100,'카고');
+
+insert into product values
+(product_seq.nextval,'MELLOS (멜로스)/(핸드메이드) 스퀘어토 로퍼-블랙','2390305_1_500.jpg',199000,'2022030411414500000060856.jpg',10,100,100,100,100,'구두');
+
+
+
+insert into product values
+(product_seq.nextval,'PRENDA (프렌다)/SHAGGY FLEECE HALF ZIP-UP PULL OVER LIGHT KHAKI','3614236_16969885526694_500.jpg',95000,'2023102612503500000097390.jpg',9,100,100,100,100,'재킷');
+
+insert into product values
+(product_seq.nextval,'NOT ONLY FOR TODAY (낫온리포투데이)/레이어드 긴소매 티셔츠 [화이트]','3550888_16969150786784_500.jpg',79000,'레이어드롱슬리브티셔츠-화이트_04.jpg',18,100,100,100,100,'긴소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'TMAKER (티메이커)/세미와이드 데님 팬츠_RAE3DP2002BK','3531544_16945701820391_500.jpg',79900,'RAE3DP2002BK_TOP1.jpg',14,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'ADIDAS (아디다스)/가젤 볼드 W - 베이지:그린','3616974_16970147189281_500.jpg',139900,'2023113016470400000075290.jpg',16,100,100,100,100,'스니커즈');
+
+
+
+insert into product values
+(product_seq.nextval,'SIGNATURE (시그니처)/파라슈트 루즈 체크 셔츠[핑크]','3447229_16923271092865_500.jpg',69000,'203아우터.jpg',18,100,100,100,100,'셔츠');
+
+insert into product values
+(product_seq.nextval,'MUSINSA STANDARD (무신사 스탠다드)/[쿨탠다드] 우먼즈 크루 넥 크롭 긴팔 티셔츠 [블랙]','3092786_16867026680812_500.jpg',20900,'2023060814043400000041284.jpg',20,100,100,100,100,'긴소매 티셔츠');
+
+insert into product values
+(product_seq.nextval,'AVANDRESS (어반드레스)/Snow cargo Denim BLACK','3263933_17019285891408_500.jpg',70800,'2023070515225400000051499.jpg',15,100,100,100,100,'카고');
+
+insert into product values
+(product_seq.nextval,'DR.MARTENS (닥터마틴)/1461 3홀 니켈 마일드 누벅 WP 그레이','3563982_16950024197443_500.jpg',210000,'3563982_16950024197443_500.jpg',17,100,100,100,100,'구두');
+
+
+
+insert into product values
+(product_seq.nextval,'RUGGED HOUSE (러기드하우스)/커브드 비건레더 오버핏 자켓','3508713_16932774923147_500.jpg',115000,'651959-m-1.jpg',6,100,100,100,100,'재킷');
+
+insert into product values
+(product_seq.nextval,'CUSTOMELLOW (커스텀멜로우)/somelos button down collar dress shirts CWSAA23012BUX','3442313_16909712361479_500.jpg',199000,'CWSAA23012BUX_TZ13.jpg',16,100,100,100,100,'셔츠');
+
+insert into product values
+(product_seq.nextval,'CUSTOMELLOW (커스텀멜로우)/corduroy wide pants CWPAW23843KHX','3591935_16956238151253_500.jpg',229000,'CWPAW23843KHX_TZ5.jpg',6,100,100,100,100,'데님');
+
+insert into product values
+(product_seq.nextval,'SCOMBER (스컴버)/[말가죽]케이브_블랙','2630238_1_500.jpg',378000,'2022062403555300000029214.jpg',12,100,100,100,100,'구두');
+
+insert into product values
+(product_seq.nextval,'토마스모어/TD4-JP08 몬스터 스트링 파카-엉클베이지','15. 아우터(패딩).jpg',357000,'1228165511710116.jpg',-50,54,50,40,70,'롱패딩');
+insert into product values
+(product_seq.nextval,'프롬아를/세르파 후디 셔츠 자켓 / WHITE','15. 상의(가디건).jpg',278000,'1228165908553996.jpg',4,50,40,20,45,'가디건');
+insert into product values
+(product_seq.nextval,'일꼬르소/카고 파라슈트 팬츠 카키 IEPA3F011K2','15. 하의(코튼).jpg',135000,'1228170313947628.jpg',6,32,21,11,54,'코튼');
+insert into product values
+(product_seq.nextval,'닥터마틴/1460 8홀 나파 블랙 무광 / 11822002','15. 신발(부츠).jpg',260000,'2022110714541500000043551.jpg',5,0,11,77,54,'부츠');
+
+insert into product values
+(product_seq.nextval,'캘빈클라인 진/남녀공용 블랙 글로시 숏 푸퍼 J400370 BEH','17. 아우터(패딩).jpg',339000,'122817321580730.jpg',-50,90,87,91,100,'숏패딩');
+insert into product values
+(product_seq.nextval,'트립르센스/투웨이 콤비네이션 울 집업 니트_레드','17. 상의(가디건).jpg',99000,'2023102017553500000039638.jpg',4,35,33,34,44,'가디건');
+insert into product values
+(product_seq.nextval,'유니폼브릿지/ae corduroy two tuck chino pants black','17. 하의(코튼).jpg',159000,'2023090416241100000038143.jpg',6,4,0,7,9,'코튼');
+insert into product values
+(product_seq.nextval,'23.65/ROI - PALAIS LIGHT BROWN','17. 신발(단화 캔버스).jpg',89000,'2023110615424500000038673.jpg',6,78,60,45,44,'기타');
+
+insert into product values
+(product_seq.nextval,'밀로/발마칸 오버 코트 [차콜]','18. 아우터(코트).jpg',298000,'2023111515560700000085905.jpg',-50,100,100,100,100,'코트');
+insert into product values
+(product_seq.nextval,'바스틱/오버 핏 스트라이프 셔츠_차콜','18. 상의(셔츠).jpg',65000,'2023091317252600000075266.jpg',10,5,13,11,9,'셔츠');
+insert into product values
+(product_seq.nextval,'다로/Belted Cargo Flare Pants','18. 하의(카고).jpg',258000,'2023121112591900000095744.jpg',9,0,0,4,0,'카고');
+insert into product values
+(product_seq.nextval,'데이빗스톤/DAVID STONE HI-COMMANDO SOLE CHELSEA BOOTS','18. 신발(부츠).jpg',299000,'2023103012101400000055801.jpg',5,6,14,10,21,'부츠');
+
+insert into product values
+(product_seq.nextval,'마르디 메크르디/COTTON CARDIGAN ROUND NECK STRIPE_IVORY BEIGE','85. 아우터(카디건).jpg',128000,'COTTON CARDIGAN ROUND NECK STRIPE_IVORY BEIGE.jpg',10,5,13,11,9,'가디건');
+insert into product values
+(product_seq.nextval,'위메농/Kate belted mini skirts ','85. 하의(미니스커트).jpg',124000,'belted mini skirts.jpg',15,41,55,41,41,'미니스커트');
+insert into product values
+(product_seq.nextval,'스퍼/Jerow bold loafer SS8018_2color','85. 신발(로퍼).jpg',129000,'SS8018_01SS8018_01.jpg',13,22,0,45,46,'구두');
+
+insert into product values
+(product_seq.nextval,'언티지/코튼 블렌드 부클레 크롭 니트 가디건_UTW-SC17 ','86. 아우터(카디건).jpg',128000,'2023040616401300000018007.jpg',10,66,45,51,70,'가디건');
+insert into product values
+(product_seq.nextval,'레이크/ BASIC LABEL SEMI CROP TEE (white)','86. 상의(긴소매 티셔츠).jpg',55000,'2023041402050100000089202.jpg',13,42,23,34,37,'긴소매 티셔츠');
+insert into product values
+(product_seq.nextval,'언티지/코튼 블렌드 부클레 니트 반바지_UTW-SC19','86. 하의(숏 팬츠).jpg',89000,'2023040616374800000035353.jpg',20,27,29,46,33,'숏');
+insert into product values
+(product_seq.nextval,'슈하이/[양가죽] 브라이드 레이스 뮬 H2723','86. 신발(블로퍼).jpg',249900,'H2723_intro_01.jpg',10,64,77,64,56,'구두');
+
+insert into product values
+(product_seq.nextval,'어누즈/알파카 블렌드 카라 버튼 니트 Black','87. 아우터(카디건).jpg',112000,'2023081815471700000036876.jpg',10,12,45,78,32,'가디건');
+insert into product values
+(product_seq.nextval,'언티지/U넥 리넨 슬러브 티셔츠[Black(UNISEX)]_UTT-ST52 ','87. 상의(긴소매 티셔츠).jpg',55000,'2023032212361200000066992.jpg',13,5,62,18,91,'긴소매 티셔츠');
+insert into product values
+(product_seq.nextval,'프레리/스트라이프 와이드 슬랙스 (GRAY)','87. 하의(슬랙스).jpg',79000,'2023082112525700000042654.jpg',15,37,84,53,54,'슬랙스');
+insert into product values
+(product_seq.nextval,'리프로덕션 오브 파운드/German Military Pink (Exclusive edition)','87. 신발(캔버스).jpg',306000,'1228174440918189.jpg',16,26,71,3,68,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'이에이/BUTTERFLY OVER HOODIE Ivory','93. 상의(후드 티셔츠).jpg',138000,'IYHPDC001IV_08.jpg',12,50,77,20,43,'후드 티셔츠');
+insert into product values
+(product_seq.nextval,'노메뉴얼/CURVED LINE DENIM PANTS - WHITE BLUE','93. 하의(데님 팬츠).jpg',179000,'2023081815512500000078698.jpg',11,2,55,98,34,'데님');
+insert into product values
+(product_seq.nextval,'야세/ [Lab Series] 스파이더 레더 스니커즈 블랙','93. 신발(스니커즈).jpg',159000,'2023050923050700000051626.jpg',12,31,0,10,21,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'오와이/ CONVERTIBLE ZIPPER POLA MTM-WHITE','94. 상의(맨투맨).jpg',129000,'2023090617070000000044361.png',13,79,36,11,9,'맨투맨');
+insert into product values
+(product_seq.nextval,'세비지/Denim Racing Pants - Blue','94. 하의(데님 팬츠).jpg',180000,'746bcfbab9d65.jpg',11,72,29,65,10,'데님');
+insert into product values
+(product_seq.nextval,'뉴발란스/NBPDDS421S / M1906RCD (SILVER)','94. 신발(스니커즈).jpg',179000,'NBPDDS421Sdetail.jpg',15,39,74,15,58,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'노이아고/NOI038 텐션 벤디드 브라 탑 (화이트)','121. 상의(민소매).jpg',16000,'2020052010523100000008323.jpg',27,39,74,15,58,'민소매 티셔츠');
+insert into product values
+(product_seq.nextval,'그리너리 크리드/랑케 스탠다드 팬츠 / GW11','121. 하의(데님).jpg',79000,'2020032317512200000040932.jpg',20,22,87,54,1,'데님');
+
+insert into product values
+(product_seq.nextval,'마르디 메크르디/UNISEX TSHIRT DDANJI_WHITE','123. 상의(반소매).jpg',42000,'2021051614055800000005114.jpg',25,22,8,16,0,'반소매 티셔츠');
+insert into product values
+(product_seq.nextval,'마르디 메크르디/SWEAT SHORTS CHECKER_WHITE','123. 하의(숏).jpg',75000,'detail_1946699_2_500.jpg',28,75,19,50,92,'숏');
+insert into product values
+(product_seq.nextval,'반스/스케이트 하이 - 블랙 / VN000D5IB8C1','123. 신발(스니커즈).jpg',95000,'2022062916454900000032953.jpg',20,28,59,80,6,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/테리 클로스 폴로 셔츠 [카키] ','124. 상의(피케).jpg',26900,'2021051418121500000005430.jpg',25,28,59,80,61,'반소매 티셔츠');
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/스웨트 쇼츠 [다크 그레이] ','124. 하의(숏).jpg',26900,'2023121810340600000015591.jpg',27,42,17,11,19,'숏');
+insert into product values
+(product_seq.nextval,'아디다스/울트라부스트 21 x PARLEY - 브라운 GX1245','124. 신발(러닝화).jpg',239000,'detail_2432728_1_500.jpg',23,15,13,19,37,'기타');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/슬릿 넥 피케 폴로 셔츠 [더스티 민트]','130. 상의(피케).jpg',29900,'2021042212003300000018317.jpg',25,69,34,77,90,'반소매 티셔츠');
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/슈퍼 와이드 히든 밴딩 크롭 슬랙스 [미디엄 그레이]','130. 하의(슬랙스).jpg',45900,'2021060212061200000017912.jpg',21,77,83,81,98,'슬랙스');
+
+insert into product values
+(product_seq.nextval,'웬스데이딜라잇/Delight glam pinky flower dress','140. 원피스(미니 원피스).jpg',159000,'Delight glam pinky flower dress.jpg',18,47,12,89,24,'미니원피스');
+insert into product values
+(product_seq.nextval,'에펠클래식/m790 슬라이드','140. 신발(슬리퍼).jpg',128000,'2022052416132800000073855.jpg',28,72,38,95,20,'슬리퍼');
+
+insert into product values
+(product_seq.nextval,'어반드레스/젠틀 오픈 세미 오버핏 셔츠 블랙','163. 상의(셔츠).jpg',38000,'2021062215330700000024082.jpg',14,5,0,0,4,'셔츠');
+insert into product values
+(product_seq.nextval,'스트라이크/로우 노 턱 트라우저스 (BEIGE)','163. 하의(슬랙스).jpg',57000,'2023031000592200000077447.jpg',15,10,11,7,4,'슬랙스');
+
+insert into product values
+(product_seq.nextval,'포트메인/SAILOR COLLAR HALF ZIP-UP KNIT - NAVY','168. 상의(니트).jpg',339000,'T2422PKT01NVY_intro.jpg',17,64,21,36,80,'니트');
+insert into product values
+(product_seq.nextval,'셀티/볼드 플리츠 숏 스커트 네이비','168. 하의(미니스커트).jpg',269000,'CT22SS_SK004NV_PRODUCT_01.jpg',19,30,67,29,54,'미니스커트');
+
+insert into product values
+(product_seq.nextval,'카테고리9/COTTON OVERSIZED SHIRT_BLUE WHITE','169. 상의(셔츠).jpg',139000,'COTTON OVERSIZED SHIRT_BLUE WHITE.jpg',15,5,13,11,9,'셔츠');
+insert into product values
+(product_seq.nextval,'디어리쉬/Yellow Dearish Pendant Tube Top','169. 상의(민소매 티셔츠).jpg',29000,'2023021717054600000046957.jpg',20,5,13,11,9,'민소매 티셔츠');
+insert into product values
+(product_seq.nextval,'라티젠/L2 POCKET SHORTS(BEIGE)','169. 하의(숏 팬츠).jpg',86000,'L2POCKETSHORTSBEIGE.jpg',20,79,23,70,41,'숏');
+insert into product values
+(product_seq.nextval,'제이다울/스퍼브 볼드 아이보리_BOLD IVORY_JD13','169. 신발(스니커즈).jpg',65000,'ivory_2.jpg',15,69,34,71,13,'스니커즈');
+
+insert into product values
+(product_seq.nextval,'드베르망/블랙 와치 플란넬 셔츠','170. 상의(셔츠).jpg',89000,'2022011717433800000008839.jpg',13,44,78,43,54,'셔츠');
+insert into product values
+(product_seq.nextval,'티엔지티/라이트블루 테이퍼드핏 워시드 크롭 데님 팬츠','170. 하의(데님).jpg',79000,'TNPA3E500B1_0.jpg',15,48,76,31,18,'데님');
+insert into product values
+(product_seq.nextval,'로렌조반피/포질리포 스트링로퍼 스웨이드 다크브라운 (홍창) [feat.CLASSSY]','170. 신발(로퍼).jpg',299000,'2022032909202800000035182.jpg',10,25,52,40,85,'구두');
+
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/모헤어 가디건 [브라운]','173. 아우터(카디건).jpg',109900,'2022121515485600000039532.jpg',10,28,59,0,16,'가디건');
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/실켓 오버사이즈 크루 넥 긴팔 티셔츠 [화이트]','173. 상의(긴소매 티셔츠).jpg',41900,'2022090720453300000035037.jpg',13,36,24,46,26,'긴소매 티셔츠');
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/세미 와이드 히든 밴딩 슬랙스 [건메탈]','173. 하의(슬랙스).jpg',39900,'2023020917091800000065586.jpg',15,45,23,21,33,'슬랙스');
+insert into product values
+(product_seq.nextval,'무신사 스탠다드/와이드 스퀘어 페니 로퍼 [화이트]','169. 신발(스니커즈).jpg',129900,'2022112314563000000060533.jpg',11,70,73,81,54,'구두');
+
+insert into product values
+(product_seq.nextval,'리파인드902/헤어리 울 더플 하프 코트_샌드 베이지','201. 아우터(코트).jpg',439000,'2023110910502200000054936.jpg',-50,51,53,51,59,'코트');
+insert into product values
+(product_seq.nextval,'유라고/Jacquard hoodie cardigan','201. 아우터(카디건).jpg',115000,'231009_2_desc_1.jpg',10,33,13,21,29,'가디건');
+insert into product values
+(product_seq.nextval,'드파운드/울 미니 스커트 [라이트 베이지]','201. 하의(미니스커트).jpg',165000,'wool mini skirt_light beige_00.jpg',20,6,45,31,11,'미니스커트');
+insert into product values
+(product_seq.nextval,'베어파우/CELIN 양털부츠 K2743002PD-W','201. 신발(부츠).jpg',169000,'3725722_17005347783114_500.jpg',3,15,13,11,19,'부츠');
+
+insert into product values
+(product_seq.nextval,'벨로엘/글로시 로고 푸퍼 크롭 패딩 와인','202. 아우터(숏패딩).jpg',183000,'2023110915010200000088007.jpg',-50,70,83,61,69,'숏패딩');
+insert into product values
+(product_seq.nextval,'다이애그널/DAMAGE POLONECK KNIT (ivory)','202. 상의(니트).jpg',124000,'2023102016415200000066925.jpg',5,65,63,71,60,'니트');
+insert into product values
+(product_seq.nextval,'트릴리온/사이드 스티치 와이드 데님 팬츠 (BLACK)','202. 하의(데님 팬츠).jpg',52000,'2023030311311700000005403.jpg',8,100,100,100,100,'데님');
+insert into product values
+(product_seq.nextval,'아식스/젤-퀀텀 키네틱 - 다크 세피아:샴록 그린', '202. 신발(스니커즈).jpg',299000,'2023102417272400000099791.jpg',10,0,0,1,4,'스니커즈');

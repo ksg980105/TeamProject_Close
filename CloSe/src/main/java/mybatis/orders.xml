@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "orders.OrdersBean">
+
+	<select id="getTotalCount" resultType="int">
+		select count(*) from orders
+		where MEMBER_ID=#{member_id} 
+		<if test='startDate != null and startDate != ""'>
+			and (TO_CHAR(orders_date,'YYYY-MM-DD') &gt;= #{startDate})
+		</if>
+		<if test='endDate != null and endDate != ""'>
+			and (TO_CHAR(orders_date,'YYYY-MM-DD') &lt;= #{endDate})
+		</if>
+		<!-- <if test='(startDate != null and startDate != "") and (startDate != null and startDate != "")'>
+			and TO_CHAR(orders_date,'YYYY-MM-DD') &gt;= #{startDate} and TO_CHAR(orders_date,'YYYY-MM-DD')  &lt;= #{endDate}
+		</if> -->
+		order by ORDERS_DATE desc
+	</select>
+
+	<insert id="insertOrders">
+		insert into orders values
+		(order_seq.nextval,#{orders_id},sysdate,#{receiver},#{receiver_phone},#{address},#{member_id},#{d_message},#{totalamount},'결제완료')
+	</insert>
+	<select id="getOrderById" resultType="OrdersBean">
+		select * from orders
+		where orders_id = #{orders_id}
+	</select>
+	<!-- <select id="getOrderByMember_Id" resultType="orderdetail.model.OrderItem">
+		select * from orders
+		where member_id=#{member_id}
+		order by orders_date desc
+	</select> -->
+	<select id="getOrderByMember_Id" resultType="orderdetail.model.OrderItem">
+		select * from orders
+		where MEMBER_ID=#{member_id} 
+		<if test='startDate != null and startDate != ""'>
+			and TO_CHAR(orders_date,'YYYY-MM-DD') &gt;= #{startDate}
+		</if>
+		<if test='endDate != null and endDate != ""'>
+			and TO_CHAR(orders_date,'YYYY-MM-DD') &lt;= #{endDate}
+		</if>
+		<!-- <if test='(startDate != null and startDate != "") and (startDate != null and startDate != "")'>
+			and TO_CHAR(orders_date,'YYYY-MM-DD') &gt;= #{startDate} and TO_CHAR(orders_date,'YYYY-MM-DD') &lt;= #{endDate}
+		</if> -->
+		order by ORDERS_DATE desc
+	</select> 
+	
+	<select id="getAdminTotalCount" resultType="int">
+		select count(*) from orders
+		<if test='startDate != null and startDate != ""'>
+			and orders_date &gt; #{startDate}
+		</if>
+		<if test='endDate != null and endDate != ""'>
+			and orders_date &lt; #{endDate}
+		</if>
+		<if test='(startDate != null and startDate != "") and (startDate != null and startDate != "")'>
+			and orders_date &gt; #{startDate} and orders_date &lt; #{endDate}
+		</if>
+		order by ORDERS_DATE desc
+	</select>
+	
+	<select id="getOrderList" resultType="OrdersBean">
+		select * from orders
+	</select>
+	
+	<select id="selectOrderByMember" resultType="OrdersBean">
+		select * from orders
+		where member_id = #{member_id}
+	</select>
+	
+	<update id="refundOrder">
+		update orders set status = '환불처리' 
+		where orders_id = #{orders_id}
+	</update>
+	
+</mapper>

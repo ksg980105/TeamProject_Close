@@ -1,0 +1,41 @@
+insert into member (member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('admin','관리자','aa123456','11111111111','aaa@naver.com','경기도','일산','23/12/25','남자','관리자',11,22,'general');
+
+insert into member (member_image, member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('profile.jpg', 'user','유저','aa123456','22222222222','ksg980105@naver.com','서울특별시','합정','23/1/2','남자','사용자',180,75,'general');
+
+insert into member (member_image, member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('profile.png', 'min','민','aa123456','22222222222','min@naver.com','서울특별시','합정','23/1/2','여자','민혁',175,70,'general');
+
+insert into member (member_image, member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('profile1.jpg', 'gyu','규','aa123456','22222222222','gyu@naver.com','서울특별시','합정','23/1/2','남자','쁘띠규',175,70,'general');
+
+insert into member (member_image, member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('profile2.jpg', 'wook','욱','aa123456','22222222222','wook@naver.com','서울특별시','합정','23/1/2','여자','현욱',175,70,'general');
+
+insert into member (member_id, name, password, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+values('jang','장','aa123456','22222222222','jang@naver.com','서울특별시','합정','23/1/2','남자','막내성재',175,70,'general');
+
+
+insert into pop values('나이키', 100);
+insert into pop values('아디다스', 90);
+insert into pop values('패딩', 95);
+insert into pop values('발마칸', 82);
+insert into pop values('어그', 89);
+insert into pop values('빵빵이', 5);
+insert into pop values('백팩', 55);
+insert into pop values('뉴발란스', 75);
+insert into pop values('아식스', 83);
+insert into pop values('무스탕', 66);
+
+
+insert into heart values(heart_seq.nextval, 'user', 20);
+insert into heart values(heart_seq.nextval, 'min', 29);
+insert into heart values(heart_seq.nextval, 'gyu', 20);
+insert into heart values(heart_seq.nextval, 'wook', 20);
+insert into heart values(heart_seq.nextval, 'jang', 20);
+insert into heart values(heart_seq.nextval, 'user', 30);
+insert into heart values(heart_seq.nextval, 'min', 30);
+insert into heart values(heart_seq.nextval, 'gyu', 30);
+insert into heart values(heart_seq.nextval, 'wook', 30);
+insert into heart values(heart_seq.nextval, 'jang', 29);

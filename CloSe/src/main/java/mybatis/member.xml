@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "member.MemberBean">
+
+	<select id="findId" resultType="int">
+		select count(*) from member where member_id=#{member_id}
+	</select>
+	
+	<select id="findNick" resultType="int">
+		select count(*) from member where nickname=#{nickname}
+	</select>
+	
+	<insert id="memberRegister">
+		insert into member(member_id, member_image, password, name, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+		values(#{member_id},#{member_image},#{password},#{name},#{phone},#{email},#{address1},#{address2},#{birth},#{gender},#{nickname},#{height},#{weight},'general')
+	</insert>
+	
+	<insert id="kakaoRegister">
+		insert into member(member_id, member_image, password, name, phone, email, address1, address2, birth, gender, nickname, height, weight, social)
+		values(#{member_id},#{member_image},#{password},#{name},#{phone},#{email},#{address1},#{address2},#{birth},#{gender},#{nickname},#{height},#{weight},'kakao')
+	</insert>
+	
+	<select id="getDetail" resultType="member.model.MemberBean">
+		select * from member where member_id = #{member_id}
+	</select>
+	
+	<select id="findwithName" resultType="member.model.MemberBean">
+		select * from member where name = #{name}
+	</select>
+	
+	<select id="findwithId" resultType="member.model.MemberBean">
+		select * from member where member_id = #{member_id}
+	</select>
+	
+	<select id="findwithNameAndPhone" resultType="member.model.MemberBean">
+		select * from member where name = #{name} and phone = #{phone}
+	</select>
+	
+	<update id="memberUpdate">
+		update member set member_image=#{member_image}, nickname=#{nickname}, password=#{password}, gender=#{gender}, address1=#{address1}, address2=#{address2}, email=#{email}, birth=#{birth}, height=#{height}, weight=#{weight} where member_id=#{member_id}
+	</update>
+	
+	<delete id="memberDelete">
+		delete from member where member_id=#{member_id}
+	</delete>
+	
+	<select id="getMember" resultType="MemberBean">
+		select * from member
+		where member_id = #{member_id}
+	</select>
+	
+	<update id="updateMemberBan">
+		update member set ban_count = #{ban_count}
+		where member_id = #{member_id}
+	</update>
+	
+	<update id="updateMemberBanExpiration">
+	    update member set ban_expiration = #{ban_expiration}
+	    where member_id = #{member_id}
+	</update>
+	
+	<update id="updateMemberBanCancel">
+		update member set ban_count = 0, ban_expiration = null
+		where member_id = #{member_id}
+	</update>
+</mapper>

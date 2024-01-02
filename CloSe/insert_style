@@ -1,0 +1,231 @@
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '1. 모델사진.jpg', '모크 넥 티셔츠 활용법', '스웨트 팬츠에 모크 넥 티셔츠를 매치하고 코트와 머플러로 마무리한 믹스 매치 스타일', '미니멀,로맨틱',0,0,'2023-12-26',1,2,3,4,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '2. 모델사진.jpg', '스포티 무드', '고어텍스 재킷에 오버올을 코디한 스포츠 룩', '스포티,클래식',0,0,'2023-12-26',5,6,7,8,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '8. 모델사진.jpg', '워너비 아웃핏', '레드 컬러가 돋보이는 터틀넥 니트에 코듀로이 팬츠를 매치하고 발마칸 코트를 걸쳐 마무리한 댄디 룩', '모던,캐주얼',0,0,'2023-12-27',9,10,11,12,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '4. 모델사진.jpg', '프렌치 시크', '맥시한 블랙 코트에 레드 카디건, 데님 팬츠를 조합하여 완성한 코디네이션', '스트릿,아메카지',0,0,'2023-12-27',13,14,15,16,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '9. 모델사진.jpg', '남다른 존재감', '후드 티셔츠와 울 팬츠를 매치하고 패딩 점퍼에 체크 패턴 스카프로 포인트 준 캐주얼 룩', '빈티지,클래식,캐주얼',0,0,'2023-12-27',17,18,19,20,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '7. 모델사진.jpg', '블루종 재킷 코디', '터틀 넥 니트와 스트레이트 핏 데님 팬츠 조합에 블루종 재킷으로 마무리한 코디네이션', '로맨틱,모던,캐주얼',0,0,'2023-12-27',21,22,23,24,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '3. 모델사진.jpg', '특별한 날엔', '화이트 숏 코트에 원피스를 코디한 로맨틱 룩', '로맨틱,모던,캐주얼',0,0,'2023-12-27',25,26,27,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '16. 모델사진.jpg', '니트 스타일링', '카키 컬러 스웨터에 데님 팬츠를 매치하고 더플코트를 걸쳐 마무리한 아메카지 룩', '아메카지,클래식,빈티지',0,0,'2023-12-27',28,29,30,31,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '56. 모델사진.jpg', '편하고 멋스럽게', '크롭 데님 재킷에 스웨트셔츠와 카고 스커트를 더하고 비니와 부츠로 마무리한 캐주얼 룩', '미니멀,스트릿',0,0,'2023-12-28',32,33,34,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '84. 모델사진.jpg', '프레피 감성', '오버사이즈 재킷과 체크 스커트로 꾸민 걸리시 룩', '미니멀,스트릿,캐주얼',0,0,'2023-12-28',35,36,37,38,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '101. 모델사진.jpg', '여름 출근 룩', '베이식한 셔츠에 코튼 팬츠를 조합하고 부츠로 마무리한 코디네이션', '아메카지,스트릿,빈티지',0,0,'2023-12-28',39,40,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '102. 모델사진.jpg', '여름 스타일링', '그래픽 패턴이 돋보이는 스카프에 데님 팬츠를 매치하고 실버 컬러 숄더백으로 마무리한 로맨틱 룩', '미니멀,스트릿,빈티지',0,0,'2023-12-28',41,42,43,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '104. 모델사진.jpg', '여름 데이트 룩', '컬러 블록 디테일의 카라 니트와 숏 팬츠를 함께 입고 메리제인 슈즈로 연출한 로맨틱 스타일링', '로맨틱,미니멀,스포티',0,0,'2023-12-28',46,47,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '105. 모델사진.jpg', '여름 느낌 물씬', '오픈카라 디자인의 반소매 셔츠와 숏 팬츠를 매치하고 피셔맨 샌들로 마무리한 댄디 룩', '스포티, 아메카지, 빈티지',0,0,'2023-12-28',48,49,50,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '151. 모델사진.jpg', '봄 컬러 조합', '핑크 컬러 니트에 데님 팬츠를 매치하여 연출한 캐주얼 룩', '캐주얼, 클래식',0,0,'2023-12-28',51,52,53,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '152. 모델사진.jpg', '봄 데이트 룩', '플라워 패턴 원피스와 옐로 컬러 볼레로 조합이 돋보이는 걸리시 룩', '캐주얼, 클래식',0,0,'2023-12-28',54,55,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '154. 모델사진.jpg', '봄 캐주얼 룩', '크로셰 니트 베스트에 데님 팬츠를 매치하고 빈티지한 무드의 백팩으로 마무리한 캐주얼 룩', '캐주얼, 클래식, 모던',0,0,'2023-12-28',56,57,58,59,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '155. 모델사진.jpg', '봄 라운딩', '슬림 핏 카디건과 플리츠스커트로 연출한 골프 룩', '캐주얼, 스포티',0,0,'2023-12-28',60,61,62,'wook');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '157. 모델사진.jpg', '157. 모델사진2.jpg', '봄나들이 룩', '카디건에 하프 팬츠를 매치하고 크로스 백을 더해 완성한 댄디 룩', '캐주얼, 모던, 로맨틱',0,0,'2023-12-28',63,64,65,'gyu');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '00. 모델사진.jpg', '00. 모델사진2.jpg', '센스 있는 조합', '퍼 재킷과 미니스커트를 매치하고 헌팅캡으로 마무리한 로맨틱 룩', '로맨틱',0,0,sysdate,66,67,68,69,'wook');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '12. 모델사진.jpg', '12. 모델사진2.jpg', '남친 룩의 정석', '후드 디테일의 체크 패턴 셔츠에 코튼 팬츠를 매치하고 더플코트를 컬쳐 마무리한 아메카지 룩', '아메카지',0,0,sysdate,70,71,72,73,'jang');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '13. 모델사진.jpg', '13. 모델사진2.jpg', '윈터 데일리 룩', '오렌지 컬러 니트에 코튼 팬츠를 매치하고 숏 패딩을 걸쳐 마무리한 캐주얼 룩', '캐주얼',0,0,sysdate,74,75,76,77,'gyu');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '14. 모델사진.jpg', '14. 모델사진2.jpg', '더플코트 활용법', '스웨터와 체크 패턴 셔츠를 레이어드하고 데님 팬츠에 더플코트를 걸쳐 마무리한 아메카지 룩', '아메카지',0,0,sysdate,78,79,80,81,'jang');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '55. 모델사진.jpg', '55. 모델사진2.jpg', '미리 크리스마스', '오버 핏 코트에 컬러 니트와 체크 머플러로 포인트를 준 걸리시 룩', '로맨틱, 캐주얼',0,0,sysdate,82,83,84,85,'wook');
+
+insert into style (style_number, image1, image2, image3, image4, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '96. 모델사진.jpg', '96. 모델사진2.jpg', '96. 모델사진3.jpg', '96. 모델사진4.jpg', '베스트 활용법', '니트 베스트와 셔츠를 레이어드하고 와이드 슬랙스로 마무리한 포멀 룩', '모던, 미니멀, 캐주얼, 클래식',0,0,sysdate,86,87,88,'wook');
+
+insert into style (style_number, image1, image2, image3, image4, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '97. 모델사진.jpg', '97. 모델사진2.jpg', '97. 모델사진3.jpg', '97. 모델사진4.jpg', '모노톤 코디', '베이식한 셔츠에 플리츠스커트를 매치하고 블레이저를 걸쳐 마무리한 포멀 룩', '모던, 미니멀, 캐주얼, 클래식',0,0,sysdate,89,90,91,92,'wook');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '98. 모델사진.jpg', '98. 모델사진2.jpg', '98. 모델사진3.jpg', '환절기 레이어드', '셔츠와 베이식한 니트를 레이어드하고 와이드 핏 슬랙스를 매치해 마무리한 댄디 룩', '모던, 미니멀, 캐주얼',0,0,sysdate,93,94,95,96,'gyu');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '99. 모델사진.jpg', '99. 모델사진2.jpg', '99. 모델사진3.jpg', '모노톤 조합', '베이식한 디자인의 니트와 데님 팬츠를 매치하고 레더 재킷을 걸쳐 마무리한 댄디 룩', '미니멀, 캐주얼',0,0,sysdate,97,98,99,100,'jang');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '100. 모델사진.jpg', '100. 모델사진2.jpg', '100. 모델사진3.jpg', '멋스러운 디테일', '화이트 티셔츠와 와이드 팬츠를 매치하고 레더 재킷을 걸쳐 완성한 댄디 룩', '미니멀, 캐주얼',0,0,sysdate,101,102,103,104,'gyu');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '112. 모델.jpg', '112. 모델2.jpg', '112. 모델3.jpg', '올여름 남친 룩', '깔끔한 디자인의 반소매 티셔츠에 벨트 디자인의 코튼 팬츠를 매치하고 피셔맨 샌들을 더해 마무리한 댄디 룩', '미니멀, 캐주얼',0,0,sysdate,105,106,'jang');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '113. 모델.jpg', '113. 모델2.jpg', '113. 모델3.jpg', '여름에도 블랙!', '미니멀한 니트 베스트에 와이드 팬츠를 더하고 컬러 백으로 포인트를 준 시크 룩', '스트릿, 스포티',0,0,sysdate,107,108,109,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '114. 모델.jpg', '여름에 제격!', '그래픽 프린팅이 돋보이는 반팔 티셔츠와 데님 팬츠를 매치하고 그린 컬러 스니커즈로 마무리한 캐주얼 룩', '아메카지, 캐주얼, 클래식',0,0,'2023-12-28',110,111,112,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '115. 모델.jpg', '여름 카디건 코디', '네이비 컬러의 민소매 티셔츠에 데님 스커트를 코디한 후 체크 패턴 숄더백으로 포인트를 준 캐주얼 룩', '스트릿, 캐주얼, 클래식',0,0,'2023-12-28',113,114,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '120. 모델.jpg', '여름 기본템', '린넨 소재의 반팔 티셔츠에 벌룬 핏 팬츠를 매치하고 버킷햇과 스트랩 샌들로 마무리한 캐주얼 룩', '스트릿, 캐주얼, 클래식',0,0,'2023-12-28',115,116,117,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '153. 모델사진.jpg', '봄 나들이 스타일링', '패턴이 돋보이는 원피스와 티셔츠를 함께 입고 마이크로 백으로 마무리한 걸리시 룩', '로맨틱,미니멀',0,0,'2023-12-28',118,119,120,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '161. 모델사진.jpg', '봄 출근 룩', '오버 핏 셔츠에 슬랙스를 매치하고 브라운 컬러 타이로 멋을 낸 포멀 룩', '모던,캐주얼,클래식',0,0,'2023-12-28',121,122,123,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '164. 모델사진.jpg', '봄나들이 룩', '스트라이프 탑에 스웨트 팬츠를 더하고 컬러 셔츠로 포인트를 준 캐주얼 룩', '모던,캐주얼,클래식',0,0,'2023-12-28',124,125,126,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '166. 모델사진.jpg', '봄 하객 룩', '
+슬릿 디테일의 롱 원피스에 린넨 재킷을 더해 화사하게 연출한 로맨틱 룩', '로맨틱, 모던, 미니멀',0,0,'2023-12-28',127,128,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '167. 모델사진.jpg', '봄 나들이 스타일링', '컬러 배색 카디건에 데님 스커트를 매치한 후 에코 백을 더해 마무리한 걸리시 룩', '아메카지, 캐주얼, 클래식',0,0,'2023-12-28',129,130,131,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '165. 모델사진.jpg', '시크하게', '클래식 무드의 트렌치코트에 데님 팬츠를 매치하고 선글라스로 포인트를 더한 시크 룩', '미니멀',0,0,'2023-12-28',132,133,134,135,'min');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '5. 모델사진.jpg', '담백 캐주얼', '화이트 패딩에 데님 팬츠를 매치하고 체크 패턴 아이템으로 포인트를 더한 캐주얼 룩', '캐주얼, 아메카지',0,0,'2023-12-28',136,137,138,139,'wook');
+
+insert into style (style_number, image1, image2, image3,title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '5. 모델사진.jpg', 'detail_34321_5_500.jpg', 'detail_34321_1_500.jpg', '시원한 여름 니트', '시원하게 입기 좋은 반소매 카라 니트에 데님 팬츠와 스니커즈를 더해 연출한 댄디 룩', '캐주얼, 모던',0,0,'2023-12-28',140,141,142,'min');
+
+insert into style (style_number, image1, image2, image3, image4,title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '6. 모델사진.jpg', 'detail_37574_5_500.jpg', 'detail_37574_3_500.jpg', 'detail_37574_2_500.jpg','한 끗을 더해', '숏 코트에 스커트를 매치하고 체크 셔츠와 볼캡으로 캐주얼하게 마무리한 코디네이션', '캐주얼, 로맨틱',0,0,'2023-12-28',143,144,145,146,'wook');
+
+insert into style (style_number, image1, image2, image3, image4,title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '156. 모델사진.jpg', 'detail_32462_2_500.jpg', 'detail_32462_3_500.jpg', 'detail_32462_5_500','봄 라운딩 룩', '라인 디테일이 돋보이는 브이넥 니트에 골프 팬츠를 매치하고 캐디 백으로 마무리한 골프 룩', '스포티',0,0,'2023-12-28',147,148,'jang');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '10. 모델사진.jpg', 'detail_37607_3_500.jpg','따라 입고 싶어', '핑크 컬러 니트에 카고 팬츠를 매치하고 다운 점퍼를 걸쳐 마무리한 캐주얼 룩', '캐주얼,로맨틱',0,0,'2023-12-28',149,150,151,152,'gyu');
+
+insert into style (style_number, image1, image2, image3,title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '160. 모델사진.jpg', 'detail_32423_5_500.jpg', 'detail_32423_1_500.jpg', '봄 컬러 조합', '셔링 디테일이 돋보이는 팬츠에 피치 컬러 니트를 매치한 캐주얼 룩', '캐주얼',0,0,'2023-12-28',153,154,155,156,'min');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '108. 모델사진.jpg', 'detail_33382_5_500.jpg', '여름의 주인공', '오픈 백 스타일의 원피스에 보터를 매치해 개성을 더한 걸리시 룩', '로맨틱, 미니멀',0,0,'2023-12-28',157,158,'wook');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '109. 모델사진.jpg', 'detail_33039_2_500.jpg', 'detail_33039_5_500.jpg','손쉽게 완성!', '화이트 크롭 티셔츠에 미니스커트를 더해 연출한 걸리시 룩', '로맨틱, 스트릿',0,0,'2023-12-28',159,160,161,'min');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '110. 모델사진.jpg', 'detail_26905_5_500.jpg', '여름 멋쟁이', '유니크한 탑에 와이드 팬츠를 매치한 후 볼캡을 더해 힙하게 연출한 스트릿 룩', '캐주얼, 스트릿',0,0,'2023-12-28',162,163,164,'wook');
+
+insert into style (style_number, image1, image2, image3, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '11. 모델사진.jpg', 'detail_37606_2_500.jpg', 'detail_37606_3_500.jpg','포근하게 완성', '브라운 컬러 니트와 데님 팬츠를 매치하고 다운 파카를 걸쳐 마무리한 캐주얼 룩', '캐주얼',0,0,'2023-12-28',165,166,167,168,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '159. 모델사진.jpg','봄 셋업', '린넨 블레이저와 슬랙스를 셋업으로 코디한 댄디 룩', '모던, 로맨틱, 클래식',0,0,'2023-12-28',169,179,171,'gyu');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '158. 모델사진.jpg', 'detail_32444_1_500.jpg','봄 니트 활용법', '반소매 니트에 데님 팬츠를 매치하고 선글라스로 멋을 준 캐주얼 룩', '모던',0,0,'2023-12-28',172,173,174,'jang');
+
+insert into style (style_number, image1, image2, image3,title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '111. 모델.jpg', 'detail_21988_5_500.jpg', 'detail_21988_2_500.jpg','여름 스타일링', '스트라이프 패턴이 돋보이는 반팔 티셔츠와 와이드 슬랙스를 매치하고 레더 소재의 샌들로 마무리한 댄디 룩', '모던, 캐주얼',0,0,'2023-12-28',175,176,177,'gyu');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '54. 모델사진.jpg', 'detail_37476_1_500.jpg', '패딩 코디', '니트 집업과, 셔츠, 스커트를 매치하고 패딩을 걸쳐 마무리한 걸리시 룩', '로맨틱',0,0,'2023-12-28',178,179,180,181,'min');
+
+insert into style (style_number, image1, image2, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, 'detail_37291_1_500.jpg', 'detail_37291_4_500.jpg', '올겨울 워시리시트', '니트와 워싱 디테일의 카고 팬츠를 매치하고 바시티 재킷을 걸쳐 마무리한 아메카지 룩', '아메카지, 클래식',0,0,'2023-12-28',182,183,184,185,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, 'detail_37308_5_500.jpg', '손이 가는 조합', '양털 아노락에 데님 팬츠와 비니, 스니커즈로 캐주얼하게 코디한 캐주얼 룩', '캐주얼',0,0,'2023-12-28',186,187,188,189,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, 'detail_36670_15_500.jpg', '영 캐주얼', '모노톤 컬러 조합에 체크 셔츠로 포인트를 더한 캐주얼 룩', '캐주얼',0,0,'2023-12-28',190,191,192,193,'min');
+
+insert into style (style_number, image1, image2, image3, image4, image5, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, 'detail_36700_1_500.jpg', 'detail_36700_5_500.jpg', 'detail_36700_2_500.jpg', 'detail_36700_3_500.jpg', 'detail_36700_4_500.jpg', '영 캐주얼', '모노톤 컬러 조합에 체크 셔츠로 포인트를 더한 캐주얼 룩', '캐주얼',0,0,'2023-12-28',194,195,196,197,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '17. 모델사진.jpg', '연말 느낌 가득', '레드 컬러가 돋보이는 니트 집업에 코듀로이 팬츠를 매치하고 패딩 점퍼를 걸쳐 마무리한 캐주얼 룩', '캐주얼,',0,0,'2023-12-26',202,203,204,205,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '18. 모델사진.jpg', '시크 그 자체', '민트 컬러 카디건에 스트라이프 패턴 셔츠를 매치하고 발마칸 코트와 타이로 멋을 낸 시크 룩','빈티지',0,0,'2023-12-26',206,207,208,209,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '85. 모델사진.jpg', '카디건 활용법', '스트라이프 셔츠와 미니스커트로 연출한 로맨틱 룩','로맨틱',0,0,'2023-12-26',210,211,212,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '86. 모델사진.jpg', '카디건 활용법', '트위드 셋업으로 꾸민 로맨틱 룩','로맨틱',0,0,'2023-12-26',213,214,215,216,'min');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '87. 모델사진.jpg', '모노톤의 매력', '모노톤 컬러 아이템으로 완성한 댄디 룩','모던',0,0,'2023-12-26',217,218,219,220,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '93. 모델사진.jpg', '그래픽 포인트', '후드 티셔츠에 데님 팬츠를 더한 캐주얼 룩','캐주얼',0,0,'2023-12-26',221,222,223,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '94. 모델사진.jpg', '멋스러운 실루엣', '스웨트셔츠에 워싱 데님 팬츠를 더해 꾸민 캐주얼 룩','캐주얼',0,0,'2023-12-26',224,225,226,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '121. 모델사진.jpg', '여름을 가득 담은', '독특한 디테일의 뷔스티에 탑과 데님 팬츠를 매치하고 미니 백으로 포인트를 준 로맨틱 룩','로맨틱',0,0,'2023-12-26',227,228,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '123. 모델사진.jpg', '여름에 제격', '그래픽 프린팅이 돋보이는 반팔 티셔츠와 숏 팬츠를 매치하고 블루 컬러 볼캡으로 포인트 준 캐주얼 룩','캐주얼',0,0,'2023-12-26',229,230,231,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '124. 모델.jpg', '여름 패션 맛보기', '카키 컬러의 반팔 카라 티셔츠에 숏 팬츠를 매치하고 볼캡과 백팩을 더해 마무리한 캐주얼 룩','캐주얼',0,0,'2023-12-26',232,233,234,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '130. 모델.jpg', '댄디한 분위기', '민트 컬러가 돋보이는 피케 티셔츠와 슬랙스를 연출하고 파나마 햇으로 포인트를 더한 댄디 룩','스포티',0,0,'2023-12-26',235,236,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '140. 모델.jpg', '여름 원피스 추천', '플로럴 패턴 원피스과 샌들로 가볍게 연출한 걸리시 룩','캐주얼',0,0,'2023-12-26',237,238,'min');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '163. 모델사진.jpg', '봄 컬러 포인트', '셔츠에 트라우저를 매치하고 옐로 컬러 카디건으로 포인트를 더한 댄디 룩','캐주얼',0,0,'2023-12-26',239,240,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, member_id)
+values (style_seq.nextval, '168. 모델사진.jpg', '봄 필드 룩', '니트와 플리츠스커트를 매치하고 버킷햇을 더해 마무리한 골프 룩','스포티',0,0,'2023-12-26',241,242,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '169. 모델사진.jpg', '봄 캐주얼', '스트라이프 셔츠에 튜브 탑과 카고 팬츠를 코디한 캐주얼 룩','캐주얼',0,0,'2023-12-26',243,244,245,246,'min');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, member_id)
+values (style_seq.nextval, '170. 모델사진.jpg', '봄처럼 가볍게', '체크 패턴이 돋보이는 셔츠에 크롭 기장의 데님 팬츠를 매치하고 스웨이드 소재 로퍼로 마무리한 댄디 룩','모던',0,0,'2023-12-26',247,248,249,'jang');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '173. 모델사진.jpg', '봄 스타일링', '브라운 컬러 카디건에 슬랙스를 매치하고 토트백으로 마무리한 포멀 룩','캐주얼',0,0,'2023-12-26',250,251,252,253,'gyu');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '201. 모델사진.jpg', '빈티지 색감', '더플코트에 코위찬 카디건, 스커트를 조합하고 퍼 슈즈로 마무리한 코디네이션','아메카지,빈티지',0,0,'2023-12-26',254,255,256,257,'wook');
+
+insert into style (style_number, image1, title, content, style, read_count, recommend_count, write_date, product_number1, product_number2, product_number3, product_number4, member_id)
+values (style_seq.nextval, '202. 모델사진.jpg', '힙하게 겨울나기', '와인 컬러의 숏 패딩과 데님 팬츠의 조합으로 완성한 스트릿 룩','스트릿',0,0,'2023-12-26',258,259,260,261,'min');

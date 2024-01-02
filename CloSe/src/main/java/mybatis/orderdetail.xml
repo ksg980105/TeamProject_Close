@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "orderdetail.OrderDetailBean">
+	<insert id="insertOrderDetail">
+		insert into orderdetail values
+		(orderdetail_seq.nextval,#{product_number},#{content},#{product_size},#{qty})
+	</insert>
+	
+	<select id="getOrderDetailsByOrder_id" resultType="orderdetail.model.OrderItem">
+		select * from orderdetail od inner join product p
+    	on p.product_number = od.product_number inner join orders o
+   	 	on o.ORDERS_ID = od.ORDERS_ID inner join member m
+   		on o.MEMBER_ID = m.MEMBER_ID
+    	where od.orders_id=#{orders_id}
+	</select>
+</mapper>

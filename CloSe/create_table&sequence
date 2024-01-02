@@ -1,0 +1,207 @@
+DROP TABLE member cascade constraints;
+DROP TABLE category cascade constraints;
+DROP TABLE product cascade constraints;
+DROP TABLE style cascade constraints;
+DROP TABLE orders cascade constraints;
+DROP TABLE orderdetail cascade constraints;
+DROP TABLE cart cascade constraints;
+DROP TABLE report cascade constraints;
+DROP TABLE qna cascade constraints;
+DROP TABLE notice cascade constraints;
+DROP TABLE coupon cascade constraints;
+DROP TABLE review cascade constraints;
+DROP TABLE pop cascade constraints;
+DROP TABLE heart cascade constraints;
+
+DROP SEQUENCE category_seq;
+DROP SEQUENCE product_seq;
+DROP SEQUENCE style_seq;
+DROP SEQUENCE orders_seq;
+DROP SEQUENCE orderdetail_seq;
+DROP SEQUENCE cart_seq;
+DROP SEQUENCE report_seq;
+DROP SEQUENCE qna_seq;
+DROP SEQUENCE notice_seq;
+DROP SEQUENCE coupon_seq;
+DROP SEQUENCE review_seq;
+DROP SEQUENCE heart_seq;
+
+create SEQUENCE category_seq;
+create SEQUENCE product_seq;
+create SEQUENCE style_seq;
+create SEQUENCE orders_seq;
+create SEQUENCE orderdetail_seq;
+create SEQUENCE cart_seq;
+create SEQUENCE report_seq;
+create SEQUENCE qna_seq;
+create SEQUENCE notice_seq;
+create SEQUENCE coupon_seq;
+create SEQUENCE review_seq;
+create SEQUENCE heart_seq;
+
+
+CREATE TABLE member (
+   member_image   varchar2(100),
+   member_id   varchar2(30)   PRIMARY KEY,
+   password   varchar2(20)   NOT NULL,
+   name   varchar2(15)   NOT NULL,
+   phone   varchar2(20)   NOT NULL,
+   email   varchar2(30)   NOT NULL,
+   address1   varchar2(100)   NOT NULL,
+   address2   varchar2(100)   NOT NULL,
+   birth   Date,
+   gender   varchar2(10),
+   nickname   varchar2(30)   NOT NULL,
+   height   number   NULL,
+   weight   number   NULL,
+   social varchar2(20),
+   ban_count number default 0,
+   ban_expiration date
+);
+
+CREATE TABLE coupon (
+   coupon_number   number   PRIMARY KEY,
+   member_id   varchar2(30),
+   coupon_name   varchar2(30),
+   coupon_discount number,
+   FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+CREATE TABLE category (
+   smallcategory_name   varchar2(20)   PRIMARY KEY,
+   bigcategory_name   varchar2(15)   NOT NULL
+);
+
+CREATE TABLE product (
+    product_number  number  PRIMARY KEY,
+    product_name    varchar2(200)    NOT NULL,
+    image   varchar2(300)    NULL,
+    price   number  NOT NULL,
+    content varchar2(200)    NOT NULL,
+    temperature number  NOT NULL,
+    s_stock   number  NOT NULL,
+    m_stock   number  NOT NULL,
+    l_stock   number  NOT NULL,
+    xl_stock   number  NOT NULL,
+    smallcategory_name varchar2(20) NOT NULL,
+    FOREIGN KEY (smallcategory_name) REFERENCES category(smallcategory_name) on delete cascade
+);
+
+CREATE TABLE style (
+   style_number   number   PRIMARY KEY,
+   image1   varchar2(100) not null,
+  image2   varchar2(100),
+  image3   varchar2(100),
+  image4   varchar2(100),
+  image5   varchar2(100),
+   title   varchar2(100),
+   content   varchar2(4000)   NOT NULL,
+  style varchar2(200) not null,
+   read_count   number,
+   recommend_count   number,
+   write_date   Date,
+   product_number1   number,
+  product_number2   number,
+  product_number3   number,
+  product_number4   number,
+   member_id   varchar2(30)   NOT NULL,
+   FOREIGN KEY (product_number1) REFERENCES product(product_number) on delete cascade,
+  FOREIGN KEY (product_number2) REFERENCES product(product_number) on delete cascade,
+  FOREIGN KEY (product_number3) REFERENCES product(product_number) on delete cascade,
+  FOREIGN KEY (product_number4) REFERENCES product(product_number) on delete cascade,
+  FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+CREATE TABLE orders (
+    orders_number   number  primary key,
+    orders_id varchar2(50) NOT NULL,
+    orders_date Date NOT NULL,
+    receiver varchar2(15) NOT NULL,
+    receiver_phone varchar2(15) NOT NULL,
+    address varchar2(150) NOT NULL,
+    member_id   varchar2(15) NOT NULL,
+    d_message varchar2(100) NULL,
+    totalamount NUMBER NOT NULL,
+    status varchar2(20),
+    FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+create table orderdetail (
+    orderdetail_number number primary key,
+    product_number  number NOT NULL,
+    orders_id varchar2(50) NOT NULL,
+    product_size varchar2(10) Not NULL,
+    qty number NOT NULL,
+    FOREIGN KEY (product_number) REFERENCES product(product_number) on delete cascade
+);
+
+CREATE TABLE cart (
+    cart_number number  primary key,
+    product_number  number  NOT NULL,
+    product_size varchar2(10) Not NULL,
+    qty number  NOT NULL,
+    member_id   varchar2(15)    NOT NULL,
+        FOREIGN KEY (product_number) REFERENCES product(product_number) on delete cascade,
+        FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+CREATE TABLE report (
+    report_number number PRIMARY KEY,
+    report_category varchar2(50),
+    content varchar2(4000),
+    image varchar2(50),
+    reporter_id varchar2(15),
+    reported_user_id varchar2(15),
+    style_number number,
+    write_date date,
+    FOREIGN KEY (reporter_id) REFERENCES member(member_id) on delete cascade,
+    FOREIGN KEY (reported_user_id) REFERENCES member(member_id) on delete cascade,
+    FOREIGN KEY (style_number) REFERENCES style(style_number) on delete cascade
+);
+
+CREATE TABLE qna (
+   qna_number   number   primary key,
+   image   varchar2(30) default null,
+   title   varchar2(50)   NOT NULL,
+   content   varchar2(4000)   NOT NULL,
+   write_date   Date,
+   secret varchar2(10) default 'NO',
+   ref   number,
+   re_level   number default 0,
+   answer number default 0,
+   qna_category varchar2(20),
+     member_id varchar2(15),
+   FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+CREATE TABLE notice (
+   notice_number number primary key,
+   image varchar2(30),
+   title   varchar2(50)   NOT NULL,
+   content   varchar2(4000)   NOT NULL,
+   write_date   Date
+);
+
+CREATE TABLE review (
+    review_number NUMBER PRIMARY KEY,
+    rating NUMBER NOT NULL,
+    text VARCHAR2(100), -- Fixed the typo here
+    orderdetail_number number NOT NULL,
+    member_id VARCHAR2(30) NOT NULL,
+    write_date DATE,
+    FOREIGN KEY (orderdetail_number) REFERENCES orderdetail(orderdetail_number) on delete cascade,
+    FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);
+
+CREATE TABLE pop(
+   keyword varchar2(100),
+   count number
+);
+
+CREATE TABLE heart(
+  heart_id number primary key,
+  member_id VARCHAR2(30) NOT NULL,
+  style_number number,
+  FOREIGN KEY (style_number) REFERENCES style(style_number) on delete cascade,
+  FOREIGN KEY (member_id) REFERENCES member(member_id) on delete cascade
+);

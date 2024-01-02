@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "cart.CartBean">
+	<insert id="addCart">
+		insert into cart values
+		(cart_seq.nextval,#{product_number},#{product_size},#{qty},#{member_id})
+	</insert>
+	<update id="updateCart">
+		update cart set qty = qty+#{qty} 
+		where product_number=#{product_number} and product_size=#{product_size}
+	</update>
+	<update id="qtyUpdate">
+		update cart set qty = #{qty}
+		where cart_number=#{cart_number}	
+	</update>
+	<select id="getAllCartByMember_Id" resultType="CartBean">
+		select * from cart 
+		order by product_number asc, 
+		case product_size when 'S' then 1 
+						  when 'M' then 2 
+						  when 'L' then 3
+						  when 'XL' then 4
+						  END ASC
+	</select>
+	<select id="getAllCartInfoByMember_Id" resultType="cart.model.CartInfoBean">
+		select * from product p inner join cart c 
+		on p.PRODUCT_NUMBER=c.PRODUCT_NUMBER
+		where c.MEMBER_ID=#{member_id}
+		order by c.CART_NUMBER, c.product_number, 
+		case c.product_size when 'S' then 1 
+							when 'M' then 2 
+							when 'L' then 3
+							when 'XL' then 4
+							END ASC
+	</select>
+	
+	<delete id="deleteCarts">
+		delete cart 
+		WHERE cart_number IN
+		<foreach collection="array" item="cnum" open="(" separator="," close=")">
+			#{cnum}
+		</foreach>
+	</delete>
+	
+	<delete id="deleteCart">
+		delete cart 
+		WHERE cart_number = #{cnum}
+	</delete>
+	
+	<select id="getCartInfoByNum" resultType="cart.model.CartInfoBean">
+		select * from product p inner join cart c 
+		on p.PRODUCT_NUMBER=c.PRODUCT_NUMBER
+		where cart_number = #{cnum}
+		order by c.CART_NUMBER, c.product_number, 
+		case c.product_size when 'S' then 1 
+							when 'M' then 2 
+							when 'L' then 3
+							when 'XL' then 4
+							END ASC
+	</select>
+	
+	<select id="getCartInfoByNums" resultType="cart.model.CartInfoBean">
+		select * from product p inner join cart c 
+		on p.PRODUCT_NUMBER=c.PRODUCT_NUMBER
+		where cart_number IN
+		<foreach collection="array" item="cnum" open="(" separator="," close=")">
+			#{cnum}
+		</foreach>
+		order by c.CART_NUMBER, c.product_number, 
+		case c.product_size when 'S' then 1 
+							when 'M' then 2 
+							when 'L' then 3
+							when 'XL' then 4
+							END ASC
+	</select>
+	
+</mapper>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "qna.QnaBean">
+
+	<select id="getTotalCount" resultType="int">
+		select count(*) from qna qna
+		left outer join member mem on qna.member_id = mem.member_id
+		where qna.re_level = 0
+		<if test="whatColumn == 'all'">
+        	and mem.nickname like #{keyword} or qna.title like #{keyword}
+    	</if>
+		<if test="whatColumn == 'nickname'">
+        	and mem.nickname like #{keyword}
+    	</if>
+    	<if test="whatColumn == 'title'">
+        	and qna.title like #{keyword}
+    	</if>
+
+	</select>
+	
+	<select id="getAllQna" resultType="QnaBean">
+	    SELECT rank, qna_number, answer, qna_category, member_id, title, nickname,
+	           write_date, secret, image, content, ref, re_level
+	    FROM (
+	        SELECT rownum AS rank, qna_number, answer, qna_category, member_id,
+	               title, nickname, write_date, secret, image, content, ref, re_level
+	        FROM (
+	            SELECT qna.qna_number, qna.answer, qna.qna_category, mem.member_id,
+	                   qna.title, mem.nickname, qna.write_date, qna.secret, qna.image,
+	                   qna.content, qna.ref, qna.re_level
+	            FROM qna qna
+	            INNER JOIN member mem ON qna.member_id = mem.member_id
+	            WHERE qna.re_level = 0
+	            <if test="whatColumn == 'all'">
+		        	and mem.nickname like #{keyword} or qna.title like #{keyword}
+		    	</if>
+	            <if test="whatColumn == 'nickname'">
+	                AND mem.nickname LIKE #{keyword}
+	            </if>
+	            <if test="whatColumn == 'title'">
+	                AND qna.title LIKE #{keyword}
+	            </if>
+	            ORDER BY qna.ref DESC
+	        )
+	    )
+	</select>
+	
+	<select id="getAllQna2" resultType="QnaBean">
+	    SELECT rank, qna_number, answer, qna_category, member_id, title, nickname,
+	           write_date, secret, image, content, ref, re_level
+	    FROM (
+	        SELECT rownum AS rank, qna_number, answer, qna_category, member_id,
+	               title, nickname, write_date, secret, image, content, ref, re_level
+	        FROM (
+	            SELECT qna.qna_number, qna.answer, qna.qna_category, mem.member_id,
+	                   qna.title, mem.nickname, qna.write_date, qna.secret, qna.image,
+	                   qna.content, qna.ref, qna.re_level
+	            FROM qna qna
+	            INNER JOIN member mem ON qna.member_id = mem.member_id
+	            <if test="whatColumn == 'nickname'">
+	                AND mem.nickname LIKE #{keyword}
+	            </if>
+	            <if test="whatColumn == 'title'">
+	                AND qna.title LIKE #{keyword}
+	            </if>
+	            ORDER BY qna.ref DESC
+	        )
+	    )
+	</select>
+	
+	<insert id="insertQna">
+		insert into qna (qna_number, image, title, content, write_date, secret, ref, re_level, qna_category, member_id)
+		values (qna_seq.nextval, #{image}, #{title}, #{content}, #{write_date}, #{secret}, qna_seq.currval, 0, #{qna_category}, #{member_id})
+	</insert>
+	
+	<select id="detailQna" resultType="String">
+		select content from qna
+		where qna_number = #{ qna_number }
+	</select>
+	
+	<select id="selectQna" resultType="QnaBean">
+		select qna.qna_number as qna_number, qna.image as image, qna.title as title, qna.content as content, qna.write_date as write_date, 
+		qna.secret as secret, qna.ref as ref, qna.re_level as re_level, qna.answer as answer, qna.qna_category as qna_category, mem.member_id as member_id, 
+		mem.nickname as nickname
+		from qna qna inner join member mem on qna.member_id = mem.member_id
+		where qna_number = #{ qna_number }
+	</select>
+	
+	<update id="updateQna">
+		update qna set image=#{image}, title=#{title}, content=#{content}, secret=#{secret}, qna_category=#{qna_category} 
+		where qna_number=#{qna_number}
+	</update>
+	
+	<update id="replyQna1">
+		update qna set answer = answer + 1
+		where ref = #{ref}
+	</update>
+	
+	<insert id="replyQna2">
+		insert into qna (qna_number, title, content, write_date, ref, re_level, member_id)
+		values(qna_seq.nextval, #{title}, #{content}, #{write_date}, #{ref}, #{re_level}+1, #{member_id})
+	</insert>
+	
+	<delete id="deleteQna">
+		delete from qna where qna_number = #{qna_number}
+	</delete>
+
+</mapper>

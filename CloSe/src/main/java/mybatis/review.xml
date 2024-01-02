@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "review.ReviewBean">
+	<insert id="registerReview">
+		insert into review 
+		values(review_seq.nextval,#{rating},#{text},#{orderdetail_number},#{member_id},sysdate)
+	</insert>
+	<select id="getAllReview" resultType="ReviewBean">
+		select * from review
+	</select>
+	<select id="getReviewByProduct_number" resultType="review.model.ReviewItem">
+		select * from review r inner join orderdetail od 
+		on r.orderdetail_number = od.orderdetail_number
+		where od.product_number = #{product_number} 
+	</select>
+	<select id="getTotalCount" resultType="int">
+		select count(*) from review r inner join orderdetail od 
+		on r.orderdetail_number = od.orderdetail_number
+		where od.product_number = #{product_number} 
+	</select>
+	<delete id="deleteReview">
+		delete review 
+		where review_number=#{review_number}
+	</delete>
+</mapper>

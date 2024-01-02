@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	<typeAliases>
+		<typeAlias type="member.model.MemberBean" alias="MemberBean"/>
+		<typeAlias type="report.model.ReportBean" alias="ReportBean"/>
+		<typeAlias type="product.model.ProductBean" alias="ProductBean"/>
+		<typeAlias type="category.model.CategoryBean" alias="CategoryBean"/>
+		<typeAlias type="style.model.StyleBean" alias="StyleBean"/>
+		<typeAlias type="qna.model.QnaBean" alias="QnaBean"/>
+		<typeAlias type="notice.model.NoticeBean" alias="NoticeBean"/>
+		<typeAlias type="orders.model.OrdersBean" alias="OrdersBean"/>
+		<typeAlias type="cart.model.CartBean" alias="CartBean"/>
+		<typeAlias type="orderdetail.model.OrderDetailBean" alias="OrderDetailBean"/>
+		<typeAlias type="review.model.ReviewBean" alias="ReviewBean"/>
+		<typeAlias type="member.model.EventBean" alias="EventBean"/>
+		<typeAlias type="style.model.HeartBean" alias="HeartBean"/>
+	</typeAliases>
+	
+	<mappers>
+        <mapper resource="mybatis/cart.xml"/>
+        <mapper resource="mybatis/category.xml"/>
+		<mapper resource="mybatis/member.xml"/>
+		<mapper resource="mybatis/notice.xml"/>
+		<mapper resource="mybatis/orders.xml"/>
+		<mapper resource="mybatis/product.xml"/>
+		<mapper resource="mybatis/qna.xml"/>
+		<mapper resource="mybatis/report.xml"/>
+		<mapper resource="mybatis/style.xml"/>
+		<mapper resource="mybatis/orderdetail.xml"/> 
+		<mapper resource="mybatis/review.xml"/>
+		<mapper resource="mybatis/event.xml"/>
+        <mapper resource="mybatis/heart.xml"/>
+	</mappers>
+</configuration>
+<!-- SqlMapConfig.xml -->
